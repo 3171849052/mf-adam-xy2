@@ -1,0 +1,50 @@
+{
+  "sample_ids": [
+    "fixture/0",
+    "fixture/1",
+    "fixture/2",
+    "fixture/3",
+    "fixture/4",
+    "fixture/5",
+    "fixture/6",
+    "fixture/7"
+  ],
+  "indices": [
+    [
+      3,
+      4,
+      2,
+      7,
+      6,
+      1,
+      5,
+      0
+    ]
+  ],
+  "sha256": "02b27172de889d46749381664d090659553b4b0d801591a804998659d53cbf52",
+  "counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "squared_multiplicities": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_participations": 1,
+  "max_squared_multiplicity_sum": 1,
+  "steps": 1,
+  "logical_batch": 8,
+  "sampling_amplification": false
+}

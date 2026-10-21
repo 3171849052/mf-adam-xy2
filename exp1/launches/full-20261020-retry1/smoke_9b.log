@@ -1,0 +1,20 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 8218.89it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 58, in <module>
+    main()
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 49, in main
+    result = run(a.config, a.output)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/pipeline.py", line 113, in run
+    check_ghost(config, output / "ghost.json")
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/pipeline.py", line 51, in check_ghost
+    values = validate(model, examples, lambda xs: collate(xs, t.pad_token_id, "cuda"), losses, config["clip"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/correctness.py", line 57, in validate
+    assert error <= rtol, f"Clipped gradient error {error} > {rtol} at physical={physical}"
+           ^^^^^^^^^^^^^
+AssertionError: Clipped gradient error 0.03203529605834018 > 0.03 at physical=2
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1 run --config /XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/smoke.config.json --output /XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/smoke-9b` failed. (See above for error)

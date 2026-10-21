@@ -1,0 +1,25 @@
+{
+  "mode": "smoke",
+  "steps": 1,
+  "logical_batch": 8,
+  "physical_batch": 4,
+  "max_length": 256,
+  "max_new_tokens": 8,
+  "gradient_checkpointing": true,
+  "learning_rates": [
+    0.0003
+  ],
+  "search_seed": 42,
+  "seeds": [
+    2026
+  ],
+  "clip": 1.0,
+  "epsilon": 6.0,
+  "delta": 1e-05,
+  "eval_limit": 2,
+  "train_limit": 64,
+  "dataset": "math10k",
+  "method": "nonprivate",
+  "lr": 0.0003,
+  "seed": 42
+}

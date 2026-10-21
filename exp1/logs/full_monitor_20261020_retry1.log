@@ -1,0 +1,4 @@
+{"observed_at": "2026-10-20T20:29:05+08:00", "stage": "download", "status": "running", "issues": []}
+{"observed_at": "2026-10-20T22:01:05+08:00", "stage": "unit_tests", "status": "running", "issues": []}
+{"observed_at": "2026-10-20T22:05:06+08:00", "stage": "smoke_9b", "status": "running", "issues": []}
+{"observed_at": "2026-10-20T22:06:06+08:00", "stage": "smoke_9b", "status": "failed", "issues": ["Stage smoke_9b failed; returncode=1; ", "Stage log contains an error: AssertionError: Clipped gradient error 0.03203529605834018 > 0.03 at physical=2"]}

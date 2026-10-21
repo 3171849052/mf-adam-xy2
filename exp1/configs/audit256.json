@@ -1,0 +1,26 @@
+{
+  "mode": "full",
+  "steps": 300,
+  "logical_batch": 64,
+  "physical_batch": 4,
+  "max_length": 256,
+  "length_decision": "Initial audit only; production full.json explicitly uses 1664. The run entry rejects overlength full data.",
+  "max_new_tokens": 512,
+  "gradient_checkpointing": true,
+  "learning_rates": [
+    0.0001,
+    0.0003,
+    0.0005
+  ],
+  "search_seed": 42,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "clip": 1.0,
+  "epsilon": 6.0,
+  "delta": 1e-05,
+  "eval_limit": null,
+  "train_limit": null
+}

@@ -1,0 +1,22 @@
+test_config_modes_and_heldout_gate (test_core.DataLossTests.test_config_modes_and_heldout_gate) ... ok
+test_mask_and_no_silent_truncation (test_core.DataLossTests.test_mask_and_no_silent_truncation) ... ok
+test_normalization_and_near_decontamination (test_core.DataLossTests.test_normalization_and_near_decontamination) ... ok
+test_parser (test_core.DataLossTests.test_parser) ... ok
+test_sample_mean_instead_of_token_mean (test_core.DataLossTests.test_sample_mean_instead_of_token_mean) ... ok
+test_batch_boundary_duplicate_sensitivity (test_core.SchedulePrivacyTests.test_batch_boundary_duplicate_sensitivity) ... ok
+test_composition_and_noise_scaling (test_core.SchedulePrivacyTests.test_composition_and_noise_scaling) ... ok
+test_permutations_and_counts (test_core.SchedulePrivacyTests.test_permutations_and_counts) ... ok
+test_single_noise_on_sum_then_average (test_core.SchedulePrivacyTests.test_single_noise_on_sum_then_average) ... ok
+test_paired_correctness (test_core.SelectionTests.test_paired_correctness) ... ok
+test_selection_uses_validation (test_core.SelectionTests.test_selection_uses_validation) ... ok
+test_bfloat16_hybrid_qwen_gpu (test_ghost.GhostTests.test_bfloat16_hybrid_qwen_gpu) ... [transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+ok
+test_chunked_loss_and_gradients (test_ghost.GhostTests.test_chunked_loss_and_gradients) ... ok
+test_hybrid_qwen_cpu_and_checkpointing (test_ghost.GhostTests.test_hybrid_qwen_cpu_and_checkpointing) ... ok
+test_reject_shared_adapter_execution (test_ghost.GhostTests.test_reject_shared_adapter_execution) ... ok
+test_reject_uncovered_trainable_parameters (test_ghost.GhostTests.test_reject_uncovered_trainable_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 18.453s
+
+OK

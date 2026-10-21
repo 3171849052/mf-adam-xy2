@@ -1,0 +1,19 @@
+{
+  "pid": 2718464,
+  "command": [
+    "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/bin/python",
+    "-u",
+    "exp1/ops/diagnose_ghost.py",
+    "--fp32-control",
+    "--physicals",
+    "1",
+    "2",
+    "--output",
+    "exp1/artifacts/ghost_diagnostic_fp32_control.json"
+  ],
+  "log": "exp1/logs/ghost_diagnostic_fp32_control.log",
+  "result": "exp1/artifacts/ghost_diagnostic_fp32_control.json",
+  "purpose": "Diagnostic control only; no optimizer update; production precision remains BF16; official test not accessed.",
+  "status": "complete",
+  "production_gate_passed": false
+}

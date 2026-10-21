@@ -1,0 +1,18 @@
+{
+  "mode": "pilot",
+  "steps": 20,
+  "logical_batch": 64,
+  "physical_batch": 4,
+  "max_length": 1664,
+  "length_decision": "Explicit audit-based increase from 256; observed complete-sample maximum is 1595.",
+  "max_new_tokens": 256,
+  "gradient_checkpointing": true,
+  "learning_rates": [0.0001, 0.0003, 0.0005],
+  "search_seed": 42,
+  "seeds": [2026],
+  "clip": 1.0,
+  "epsilon": 6.0,
+  "delta": 0.00001,
+  "eval_limit": 32,
+  "train_limit": null
+}

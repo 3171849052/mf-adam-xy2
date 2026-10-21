@@ -1,0 +1,22 @@
+{
+  "sample_ids": [
+    "fixture/0",
+    "fixture/1",
+    "fixture/2",
+    "fixture/3",
+    "fixture/4",
+    "fixture/5",
+    "fixture/6",
+    "fixture/7"
+  ],
+  "counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

@@ -1,0 +1,12 @@
+ModelScope byte transport: model.safetensors-00001-of-00004.safetensors; expected SHA256=862bf7bba8a50145d19d0ae463931fae515284024736592a73a336bc4dfa54eeModelScope byte transport: model.safetensors-00002-of-00004.safetensors; expected SHA256=bace8e115e11ca93c22f0352a60d2fb0c76ac6d7d1c2993c143b7ad2b6c8868c
+
+ModelScope byte transport: model.safetensors-00003-of-00004.safetensors; expected SHA256=63a021ac0011cbfc66166e77103327a8b45dee95832e36551f6b4c3337448959
+ModelScope byte transport: model.safetensors-00004-of-00004.safetensors; expected SHA256=1a643bbed669266917b5058b5d3f660c03233599249ff7d8fd083decfe662ae0
+model.safetensors-00002-of-00004.safetensors: 268435456 bytes / 565.1s
+model.safetensors-00003-of-00004.safetensors: 268435456 bytes / 565.4s
+model.safetensors-00001-of-00004.safetensors: 268435456 bytes / 565.7s
+model.safetensors-00004-of-00004.safetensors: 268435456 bytes / 566.0s
+Terminated
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1 download --transport modelscope` failed. (See above for error)
+
+Implementation session stopped this slow transfer; partial files retained under model/ for explicit Range resume. No training process was started.

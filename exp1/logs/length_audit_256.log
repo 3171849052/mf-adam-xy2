@@ -1,0 +1,47 @@
+{
+  "max_length": 256,
+  "prompt_sha256": "fc658ccee94bb230dfea1a1e0a4ebb9d8e8f538a77d2eefe81125a8d7132fe37",
+  "model_revision": "68c46c4b3498877f3ef123c856ecfde50c39f404",
+  "data_manifest_sha256": "7638dfdf9344d44d2933fbef505bc916b894f58b315f087cd8260dac2a34325f",
+  "splits": {
+    "gsm8k": {
+      "count": 6961,
+      "max_tokens": 563,
+      "quantiles": [
+        198.0,
+        306.0,
+        343.0,
+        423.0,
+        563.0
+      ],
+      "overlength_count": 1523,
+      "truncation_fraction": 0.21879040367763253
+    },
+    "math10k": {
+      "count": 9500,
+      "max_tokens": 1595,
+      "quantiles": [
+        217.0,
+        341.0,
+        388.0,
+        505.0100000000002,
+        1595.0
+      ],
+      "overlength_count": 3079,
+      "truncation_fraction": 0.32410526315789473
+    },
+    "validation": {
+      "count": 512,
+      "max_tokens": 473,
+      "quantiles": [
+        200.0,
+        300.60000000000014,
+        332.0,
+        369.89,
+        473.0
+      ],
+      "overlength_count": 105,
+      "truncation_fraction": 0.205078125
+    }
+  }
+}

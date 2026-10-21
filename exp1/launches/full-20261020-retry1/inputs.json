@@ -1,0 +1,118 @@
+{
+  "sha256": {
+    "exp1/privacy.py": "84c32797ec7b546b630f0ae6944b1cef49fc351749996fc4eedcd4c2e0a51aa6",
+    "exp1/__init__.py": "b9718fc5400735f38af961fb4c683cf8a0daa0bfc8f1e0cc656baa142a7b2c11",
+    "exp1/data.py": "dabce617fad8f532854a1415dbeae6f4bc81ced5bd21a69d8f98e6ee01e8f7c3",
+    "exp1/common.py": "a8ef1b85cd35abf367d477edb280340cb2c8f15b989d9afa69454abf6aa343d7",
+    "exp1/modeling.py": "91adb5c619a3543730ce9d04cb5d179d5ac29485fae42b69afb26a92c6d1b6d6",
+    "exp1/downloads.py": "626b8eae20353fe52c1f3e8fd142615d1021bed850baa1c317be7c363ad8e2e8",
+    "exp1/correctness.py": "d497a3d065282a822b6e919a698cf8d9e07cdd1366c0df337748ac4e36e9b8f3",
+    "exp1/ghost.py": "2d0a05aedcbf414da62da743b4f2eb70f8ee0a0b9b643f3fe3f8d21209e40291",
+    "exp1/engine.py": "73446ff018ea3e730d624a3db0b523d39aaa4cffe79f979c60884b3639a82291",
+    "exp1/__main__.py": "f874ce1ae70076a894755da5114007ec0ed1f65483e0160e59708ddd899c1ae2",
+    "exp1/launch_full.py": "1901b469c4a5b0c89a7b502db2acd00cb2e67bc2e79f2a80c487703c1a4d12e0",
+    "exp1/pipeline.py": "935a005f86b9a36b9ed505892c245cfc04ed8eefb1b9051d03922ba61ca4c857",
+    "exp1/tests/__init__.py": "5c13399fc3cd3201eb3073e58ecc9fbbc26dde9331538a02514de34c39e29d15",
+    "exp1/tests/fixtures.py": "73e0d229ca79570bef8eb862902cb68f02a2fcf02f2a8bfbe2ab978267c3992f",
+    "exp1/tests/test_downloads.py": "9861ba4af748d446c718bf52e0a4294e65d9823b1372fe4fd4385dd6ba517afe",
+    "exp1/tests/smoke.py": "0d45c1fd27b1567a2a69a29e21c69e3df85634f3e624e2ea84aca1efff1edb05",
+    "exp1/tests/test_core.py": "37473b3b691158d37871247bbb8e7344444e4a91b34c783b354a3cce79f9d57b",
+    "exp1/tests/test_ghost.py": "ae9033a89e6aa3951caf8e53ff925fe5063caa0de85afb7af1a127575b74cc5f",
+    "exp1/configs/sources.lock.json": "a2a9198aaed0177fcbdba18cfa68e92f35c0636ab36295a3d5558056c890291c",
+    "exp1/artifacts/data/manifest.json": "7638dfdf9344d44d2933fbef505bc916b894f58b315f087cd8260dac2a34325f",
+    "exp1/launches/full-20261020-retry1/smoke.config.json": "eed058a7f697b7399731f2dfe64bef3c3997a1e8337a7e87627752474f5bc559",
+    "exp1/launches/full-20261020-retry1/full.config.json": "4d224220196fa33b9dc9934b91c71fb60f44fa6ef519da78a5550c9e41eede77"
+  },
+  "commands": [
+    [
+      "download",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "download",
+        "--transport",
+        "modelscope"
+      ]
+    ],
+    [
+      "unit_tests",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "exp1/tests",
+        "-v"
+      ]
+    ],
+    [
+      "smoke_9b",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "run",
+        "--config",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/smoke.config.json",
+        "--output",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/smoke-9b"
+      ]
+    ],
+    [
+      "full",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "run",
+        "--config",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/full.config.json",
+        "--output",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/full"
+      ]
+    ],
+    [
+      "final",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "final",
+        "--run",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/full"
+      ]
+    ]
+  ]
+}

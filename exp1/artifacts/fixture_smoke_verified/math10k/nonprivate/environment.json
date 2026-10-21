@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "5.12.1",
+    "peft": "0.19.1",
+    "opacus": "1.6.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "huggingface-hub": "1.21.0",
+    "safetensors": "0.8.0"
+  },
+  "cuda": "12.8",
+  "gpu": "NVIDIA A800 80GB PCIe"
+}

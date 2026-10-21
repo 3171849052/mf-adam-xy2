@@ -1,0 +1,10 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+smoke gsm8k nonprivate seed=42 lr=0.0003 step=1/1
+/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/peft/utils/save_and_load.py:372: UserWarning: Could not find a config file in  - will assume that the vocabulary was not modified.
+  warnings.warn(
+smoke gsm8k dp seed=42 lr=0.0003 step=1/1
+smoke math10k nonprivate seed=42 lr=0.0003 step=1/1
+smoke math10k dp seed=42 lr=0.0003 step=1/1
+/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:302: UserWarning: Already found a `peft_config` attribute in the model. This will lead to having multiple adapters in the model. Make sure to know what you are doing!
+  warnings.warn(
+{"passed": true, "fixture": true, "result": "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/artifacts/fixture_smoke/result.json"}

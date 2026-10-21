@@ -1,0 +1,55 @@
+{
+  "observed_at": "2026-10-20T20:13:08+08:00",
+  "launch_status": "failed",
+  "stage": "download",
+  "supervisor": {
+    "alive": false,
+    "pid": 373681
+  },
+  "child": {
+    "alive": false,
+    "pid": 373682
+  },
+  "gpu": {
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_mib": 0.0,
+    "utilization_percent": 0.0,
+    "power_w": 47.31
+  },
+  "weight_bytes": 5486149632,
+  "expected_weight_bytes": 19306310872,
+  "weight_percent": 28.416353949612297,
+  "recent_download_bytes_per_second": 462347.5084420196,
+  "estimated_download_seconds_remaining": 29891.285207894896,
+  "download_no_progress_seconds": 181.52772475080565,
+  "weight_files": {
+    "model.safetensors-00001-of-00004.safetensors": {
+      "bytes": 1375731712,
+      "expected_bytes": 5276436216,
+      "complete_file_exists": false
+    },
+    "model.safetensors-00002-of-00004.safetensors": {
+      "bytes": 1375731712,
+      "expected_bytes": 5335161576,
+      "complete_file_exists": false
+    },
+    "model.safetensors-00003-of-00004.safetensors": {
+      "bytes": 1367343104,
+      "expected_bytes": 5368717376,
+      "complete_file_exists": false
+    },
+    "model.safetensors-00004-of-00004.safetensors": {
+      "bytes": 1367343104,
+      "expected_bytes": 3325995704,
+      "complete_file_exists": false
+    }
+  },
+  "last_optimizer_update": null,
+  "full_ghost_passed": false,
+  "full_configuration_frozen": false,
+  "official_test_evaluated": false,
+  "issues": [
+    "Stage download failed; returncode=1; ",
+    "Stage log contains an error: Traceback (most recent call last):"
+  ]
+}

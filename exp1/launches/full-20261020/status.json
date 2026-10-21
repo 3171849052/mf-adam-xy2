@@ -1,0 +1,44 @@
+{
+  "status": "failed",
+  "stage": "download",
+  "started_at": "2026-10-20T19:28:48+08:00",
+  "supervisor_pid": 373681,
+  "process_group": 373633,
+  "smoke_output": "exp1/runs/smoke-9b",
+  "full_output": "exp1/runs/full",
+  "full_experiments_started": false,
+  "official_test_evaluated": false,
+  "history": [
+    {
+      "stage": "download",
+      "returncode": 1,
+      "finished_at": "2026-10-20T20:12:42+08:00",
+      "log": "exp1/launches/full-20261020/download.log"
+    }
+  ],
+  "updated_at": "2026-10-20T20:12:42+08:00",
+  "weight_bytes": 5486149632,
+  "expected_weight_bytes": 19306310872,
+  "model_weights_verified": false,
+  "full_ghost_passed": false,
+  "full_configuration_frozen": false,
+  "stage_started_at": "2026-10-20T19:28:48+08:00",
+  "log": "exp1/launches/full-20261020/download.log",
+  "command": [
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+    "run",
+    "--no-capture-output",
+    "-n",
+    "pndp",
+    "python",
+    "-u",
+    "-m",
+    "exp1",
+    "download",
+    "--transport",
+    "modelscope"
+  ],
+  "child_pid": 373682,
+  "returncode": 1,
+  "finished_at": "2026-10-20T20:12:42+08:00"
+}

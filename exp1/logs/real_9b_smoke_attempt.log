@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 58, in <module>
+    main()
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 49, in main
+    result = run(a.config, a.output)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/pipeline.py", line 106, in run
+    require_model()
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/modeling.py", line 113, in require_model
+    assert manifest_path.exists(), "Pinned 9B weights are not downloaded and SHA256-verified; run: python -m exp1 download"
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Pinned 9B weights are not downloaded and SHA256-verified; run: python -m exp1 download
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1 run --config exp1/configs/smoke.json --output exp1/runs/smoke-9b` failed. (See above for error)

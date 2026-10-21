@@ -1,0 +1,24 @@
+test_invalid_content_range_is_not_retried_or_appended (exp1.tests.test_downloads.RangeDownloadTests.test_invalid_content_range_is_not_retried_or_appended) ... DOWNLOAD_RANGE weights.partial: 3-9/10
+ok
+test_partial_write_timeout_resumes_without_repeating_bytes (exp1.tests.test_downloads.RangeDownloadTests.test_partial_write_timeout_resumes_without_repeating_bytes) ... DOWNLOAD_RANGE weights.partial: 5-12/36
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected transient read timeout; retry=1/12, resume_byte=8, delay=2s
+DOWNLOAD_RANGE weights.partial: 8-15/36
+DOWNLOAD_PROGRESS weights.partial: 16/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 16-23/36
+DOWNLOAD_PROGRESS weights.partial: 24/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 24-31/36
+DOWNLOAD_PROGRESS weights.partial: 32/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 32-35/36
+DOWNLOAD_PROGRESS weights.partial: 36/36 bytes, elapsed=0.0s
+ok
+test_retry_budget_is_bounded_and_missing_file_remains_missing (exp1.tests.test_downloads.RangeDownloadTests.test_retry_budget_is_bounded_and_missing_file_remains_missing) ... DOWNLOAD_RANGE weights.partial: 0-9/10
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected; retry=1/2, resume_byte=0, delay=2s
+DOWNLOAD_RANGE weights.partial: 0-9/10
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected; retry=2/2, resume_byte=0, delay=4s
+DOWNLOAD_RANGE weights.partial: 0-9/10
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.014s
+
+OK

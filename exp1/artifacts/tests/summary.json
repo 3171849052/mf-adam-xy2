@@ -1,0 +1,11 @@
+{
+  "unit_tests": 16,
+  "all_passed": true,
+  "ghost_max_gradient_relative_errors": {
+    "ghost_cpu": 4.3525885204985203e-07,
+    "ghost_bf16_gpu": 0.006183199675447581
+  },
+  "ghost_test_cases": 32,
+  "fixture_smoke": "exp1/artifacts/fixture_smoke_final/result.json",
+  "real_9b_smoke_passed": false
+}

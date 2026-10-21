@@ -1,0 +1,374 @@
+{
+  "observed_at": "2026-10-21T13:39:54+08:00",
+  "production_stage": "failed at real 9B Ghost validation, before optimizer updates",
+  "weights_verified": true,
+  "unit_tests_passed": 19,
+  "original_failure": {
+    "physical_batch": 2,
+    "gradient_relative_error": 0.03203529605834018,
+    "threshold": 0.03
+  },
+  "unchanged_production_inputs": true,
+  "diagnostics": [
+    {
+      "name": "default",
+      "file": "exp1/artifacts/ghost_diagnostic_default.json",
+      "settings": {
+        "padding": "dynamic",
+        "math_attention": false,
+        "full_reduction": false,
+        "output": "exp1/artifacts/ghost_diagnostic_default.json"
+      },
+      "cases": [
+        {
+          "physical": 1,
+          "clipped_error": 0.007847878620557056,
+          "unclipped_error": 0.0,
+          "norm_relative_error_max": 4.0387022111869875e-08,
+          "coef_relative_error_max": 4.038702378965778e-08
+        },
+        {
+          "physical": 2,
+          "clipped_error": 0.031912037894094476,
+          "unclipped_error": 0.0359297696778133,
+          "norm_relative_error_max": 0.022881725164627456,
+          "coef_relative_error_max": 0.02341755932103787
+        },
+        {
+          "physical": 4,
+          "clipped_error": 0.030110107893414093,
+          "unclipped_error": 0.03376133220307667,
+          "norm_relative_error_max": 0.024079436800862195,
+          "coef_relative_error_max": 0.024673562284544977
+        },
+        {
+          "physical": 8,
+          "clipped_error": 0.035956321669497894,
+          "unclipped_error": 0.03972414678250386,
+          "norm_relative_error_max": 0.01825922426455251,
+          "coef_relative_error_max": 0.01859882436977741
+        }
+      ],
+      "same_graph": {
+        "same_graph_ghost_norms": [
+          1.8675588032754513,
+          0.8623838552926073
+        ],
+        "same_graph_direct_norms": [
+          1.8676141252164031,
+          0.8612412564977043
+        ],
+        "same_graph_clipped_error": 0.013889247469014147
+      }
+    },
+    {
+      "name": "stable",
+      "file": "exp1/artifacts/ghost_diagnostic_stable.json",
+      "settings": {
+        "padding": "logical64",
+        "math_attention": true,
+        "full_reduction": true,
+        "output": "exp1/artifacts/ghost_diagnostic_stable.json"
+      },
+      "cases": [
+        {
+          "physical": 1,
+          "clipped_error": 0.007137324348651471,
+          "unclipped_error": 0.0,
+          "norm_relative_error_max": 5.029016200620317e-08,
+          "coef_relative_error_max": 4.706591749440863e-08
+        },
+        {
+          "physical": 2,
+          "clipped_error": 0.03201705260963968,
+          "unclipped_error": 0.03612723516249551,
+          "norm_relative_error_max": 0.019032845364400634,
+          "coef_relative_error_max": 0.019402122970641908
+        },
+        {
+          "physical": 4,
+          "clipped_error": 0.03325024771846057,
+          "unclipped_error": 0.03694407772633098,
+          "norm_relative_error_max": 0.01913555288416755,
+          "coef_relative_error_max": 0.01950886581773289
+        },
+        {
+          "physical": 8,
+          "clipped_error": 0.030429378372312597,
+          "unclipped_error": 0.03394684071996419,
+          "norm_relative_error_max": 0.013346389725820518,
+          "coef_relative_error_max": 0.013526925343243557
+        }
+      ],
+      "same_graph": {
+        "same_graph_ghost_norms": [
+          1.8357909269863895,
+          0.8719729468861227
+        ],
+        "same_graph_direct_norms": [
+          1.8357922065909527,
+          0.8719736623786499
+        ],
+        "same_graph_clipped_error": 0.00979678191203183
+      }
+    },
+    {
+      "name": "native",
+      "file": "exp1/artifacts/ghost_diagnostic_native.json",
+      "settings": {
+        "padding": "logical64",
+        "math_attention": true,
+        "full_reduction": true,
+        "native_convolution": true,
+        "cublas": true,
+        "output": "exp1/artifacts/ghost_diagnostic_native.json"
+      },
+      "cases": [
+        {
+          "physical": 1,
+          "clipped_error": 0.007137324348651471,
+          "unclipped_error": 0.0,
+          "norm_relative_error_max": 5.029016200620317e-08,
+          "coef_relative_error_max": 4.706591749440863e-08
+        },
+        {
+          "physical": 2,
+          "clipped_error": 0.03201705260963968,
+          "unclipped_error": 0.03612723516249551,
+          "norm_relative_error_max": 0.019032845364400634,
+          "coef_relative_error_max": 0.019402122970641908
+        },
+        {
+          "physical": 4,
+          "clipped_error": 0.03325024771846057,
+          "unclipped_error": 0.03694407772633098,
+          "norm_relative_error_max": 0.01913555288416755,
+          "coef_relative_error_max": 0.01950886581773289
+        },
+        {
+          "physical": 8,
+          "clipped_error": 0.030429378372312597,
+          "unclipped_error": 0.03394684071996419,
+          "norm_relative_error_max": 0.013346389725820518,
+          "coef_relative_error_max": 0.013526925343243557
+        }
+      ],
+      "same_graph": {
+        "same_graph_ghost_norms": [
+          1.8357909269863895,
+          0.8719729468861227
+        ],
+        "same_graph_direct_norms": [
+          1.8357922065909527,
+          0.8719736623786499
+        ],
+        "same_graph_clipped_error": 0.00979678191203183
+      }
+    },
+    {
+      "name": "bmm",
+      "file": "exp1/artifacts/ghost_diagnostic_bmm.json",
+      "settings": {
+        "padding": "logical64",
+        "math_attention": true,
+        "full_reduction": true,
+        "native_convolution": false,
+        "cublas": false,
+        "batch_preserving_linears": true,
+        "physicals": [
+          1,
+          2
+        ],
+        "output": "exp1/artifacts/ghost_diagnostic_bmm.json"
+      },
+      "cases": [
+        {
+          "physical": 1,
+          "clipped_error": 0.007137324348651471,
+          "unclipped_error": 0.0,
+          "norm_relative_error_max": 5.029016200620317e-08,
+          "coef_relative_error_max": 4.706591749440863e-08
+        },
+        {
+          "physical": 2,
+          "clipped_error": 0.03271713018261825,
+          "unclipped_error": 0.035744520466780824,
+          "norm_relative_error_max": 0.013122546031613223,
+          "coef_relative_error_max": 0.013297037011885742
+        }
+      ],
+      "same_graph": {
+        "same_graph_ghost_norms": [
+          1.8508248294891605,
+          0.869868511955354
+        ],
+        "same_graph_direct_norms": [
+          1.8508261882563375,
+          0.8698692138027411
+        ],
+        "same_graph_clipped_error": 0.010124069175753316
+      }
+    },
+    {
+      "name": "fp32_norm",
+      "file": "exp1/artifacts/ghost_diagnostic_fp32_norm.json",
+      "settings": {
+        "padding": "dynamic",
+        "math_attention": false,
+        "full_reduction": false,
+        "native_convolution": false,
+        "cublas": false,
+        "batch_preserving_linears": false,
+        "fp32_delta_norm": true,
+        "physicals": [
+          1,
+          2
+        ],
+        "output": "exp1/artifacts/ghost_diagnostic_fp32_norm.json"
+      },
+      "cases": [
+        {
+          "physical": 1,
+          "clipped_error": 0.007813299650195409,
+          "unclipped_error": 0.0,
+          "norm_relative_error_max": 3.722492368009071e-08,
+          "coef_relative_error_max": 3.7224924950492476e-08
+        },
+        {
+          "physical": 2,
+          "clipped_error": 0.03371211737985795,
+          "unclipped_error": 0.03513879744008614,
+          "norm_relative_error_max": 0.012301226225766338,
+          "coef_relative_error_max": 0.006969475437761611
+        }
+      ],
+      "same_graph": {
+        "same_graph_ghost_norms": [
+          1.8678834996069378,
+          0.8680849782961497
+        ],
+        "same_graph_direct_norms": [
+          1.8686302085789366,
+          0.8683426647519269
+        ],
+        "same_graph_clipped_error": 0.013060170849767325
+      }
+    }
+  ],
+  "conclusion": "FP32 control errors are near 1e-6 to 1e-5, whereas BF16 cross-batch gradients differ by roughly 3%. This points to mixed-precision numerics, but the underlying cause is not fully resolved. The BF16 full gate remains failed. No production source, training config or threshold was changed.",
+  "active_diagnostic": {
+    "pid": 2718464,
+    "command": [
+      "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/bin/python",
+      "-u",
+      "exp1/ops/diagnose_ghost.py",
+      "--fp32-control",
+      "--physicals",
+      "1",
+      "2",
+      "--output",
+      "exp1/artifacts/ghost_diagnostic_fp32_control.json"
+    ],
+    "log": "exp1/logs/ghost_diagnostic_fp32_control.log",
+    "result": "exp1/artifacts/ghost_diagnostic_fp32_control.json",
+    "purpose": "Diagnostic control only; no optimizer update; production precision remains BF16; official test not accessed.",
+    "status": "complete",
+    "production_gate_passed": false
+  },
+  "fp32_control": {
+    "settings": {
+      "padding": "dynamic",
+      "math_attention": false,
+      "full_reduction": false,
+      "native_convolution": false,
+      "cublas": false,
+      "batch_preserving_linears": false,
+      "fp32_delta_norm": false,
+      "fp32_control": true,
+      "physicals": [
+        1,
+        2
+      ],
+      "output": "exp1/artifacts/ghost_diagnostic_fp32_control.json"
+    },
+    "lengths": [
+      92,
+      94,
+      94,
+      95,
+      98,
+      98,
+      98,
+      99
+    ],
+    "logical_width": 128,
+    "cases": [
+      {
+        "physical": 1,
+        "clipped_error": 1.2240006853030935e-06,
+        "unclipped_error": 0.0,
+        "norm_relative_error_max": 1.1847148424977123e-08,
+        "coef_relative_error_max": 1.1847148307727594e-08,
+        "norms": [
+          1.8604633018567487,
+          0.8684252051144247,
+          1.235599029704174,
+          0.9058554274050586,
+          1.2582027179124822,
+          2.7601179504456543,
+          1.1415951288790551,
+          1.5858042875287244
+        ],
+        "reference_norms": [
+          1.8604633001416808,
+          0.8684252135430742,
+          1.2355990301492477,
+          0.905855429507079,
+          1.258202716980281,
+          2.7601179177461277,
+          1.1415951235347086,
+          1.585804281877836
+        ]
+      },
+      {
+        "physical": 2,
+        "clipped_error": 5.65879899396325e-06,
+        "unclipped_error": 6.871713754812747e-06,
+        "norm_relative_error_max": 3.1711912203446523e-06,
+        "coef_relative_error_max": 3.171181163890687e-06,
+        "norms": [
+          1.8604616305343342,
+          0.868424319860487,
+          1.2355953729336013,
+          0.9058551104137232,
+          1.2582015129787392,
+          2.7601266706078356,
+          1.1415939069897016,
+          1.5858028737135683
+        ],
+        "reference_norms": [
+          1.8604633001416808,
+          0.8684252135430742,
+          1.2355990301492477,
+          0.905855429507079,
+          1.258202716980281,
+          2.7601179177461277,
+          1.1415951235347086,
+          1.585804281877836
+        ]
+      }
+    ],
+    "same_graph": {
+      "same_graph_ghost_norms": [
+        1.860461874607639,
+        0.8684243052629276
+      ],
+      "same_graph_direct_norms": [
+        1.8604636313287262,
+        0.8684251727226262
+      ],
+      "same_graph_clipped_error": 2.3493564856211114e-06
+    },
+    "is_production_training": false
+  }
+}

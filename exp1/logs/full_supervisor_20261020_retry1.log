@@ -1,0 +1,7 @@
+2026-10-20T20:28:54+08:00 START download; log=/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/download.log
+2026-10-20T22:00:36+08:00 DONE download
+2026-10-20T22:00:36+08:00 START unit_tests; log=/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/unit_tests.log
+2026-10-20T22:04:57+08:00 DONE unit_tests
+2026-10-20T22:04:57+08:00 START smoke_9b; log=/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/smoke_9b.log
+2026-10-20T22:06:02+08:00 FAILED smoke_9b, exit=1; later stages were not started
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1.launch_full --launch-dir exp1/launches/full-20261020-retry1 --transport modelscope` failed. (See above for error)

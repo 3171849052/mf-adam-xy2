@@ -1,0 +1,20 @@
+{
+  "session_pid": 459470,
+  "command": [
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+    "run",
+    "--no-capture-output",
+    "-n",
+    "pndp",
+    "python",
+    "-u",
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/ops/monitor.py",
+    "--status",
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/status.json",
+    "--interval",
+    "30"
+  ],
+  "log": "exp1/logs/full_monitor_20261020_retry1.log",
+  "observations": "exp1/launches/full-20261020-retry1/monitor/latest.json",
+  "events": "exp1/launches/full-20261020-retry1/monitor/events.jsonl"
+}

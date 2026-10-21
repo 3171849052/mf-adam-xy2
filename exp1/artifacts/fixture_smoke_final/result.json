@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "mode": "smoke",
+  "fixture": "tiny randomly initialized Qwen3.5, synthetic questions and tokenizer",
+  "is_9b_checkpoint_result": false,
+  "official_test_accessed": false,
+  "fits": [
+    {
+      "path": "exp1/artifacts/fixture_smoke_final/gsm8k/nonprivate",
+      "dataset": "gsm8k",
+      "method": "nonprivate",
+      "lr": 0.0003,
+      "seed": 42,
+      "validation": {
+        "mode": "smoke",
+        "count": 2,
+        "accuracy": 0.0,
+        "validation_loss": 4.815169095993042,
+        "parse_failure_rate": 1.0,
+        "generation_limit_rate": 1.0,
+        "seconds": 0.13140276120975614,
+        "peak_memory_bytes": 17618944
+      },
+      "training": {
+        "seconds": 0.21554953511804342,
+        "samples_per_second": 37.11443866310769,
+        "tokens_per_second": 1039.2042825670153,
+        "peak_memory_bytes": 21519872,
+        "peak_reserved_bytes": 27262976,
+        "completed_updates": 1
+      },
+      "schedule_sha256": "02b27172de889d46749381664d090659553b4b0d801591a804998659d53cbf52",
+      "privacy": null
+    },
+    {
+      "path": "exp1/artifacts/fixture_smoke_final/gsm8k/dp",
+      "dataset": "gsm8k",
+      "method": "dp",
+      "lr": 0.0003,
+      "seed": 42,
+      "validation": {
+        "mode": "smoke",
+        "count": 2,
+        "accuracy": 0.0,
+        "validation_loss": 4.818798542022705,
+        "parse_failure_rate": 1.0,
+        "generation_limit_rate": 1.0,
+        "seconds": 0.13241090020164847,
+        "peak_memory_bytes": 17619456
+      },
+      "training": {
+        "seconds": 0.2965546902269125,
+        "samples_per_second": 26.976474369293236,
+        "tokens_per_second": 755.3412823402106,
+        "peak_memory_bytes": 21881856,
+        "peak_reserved_bytes": 27262976,
+        "completed_updates": 1
+      },
+      "schedule_sha256": "02b27172de889d46749381664d090659553b4b0d801591a804998659d53cbf52",
+      "privacy": {
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "squared_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_participations": 1,
+        "max_squared_multiplicity_sum": 1,
+        "steps": 1,
+        "logical_batch": 8,
+        "sampling_amplification": false,
+        "adjacency": "add/remove-zero-out on fixed public slots; not replacement",
+        "accountant": "GDP exact Gaussian adaptive composition; no Poisson accountant",
+        "target_epsilon": 6.0,
+        "delta": 1e-05,
+        "mu": 1.3095258394060219,
+        "epsilon": 5.999999999999997,
+        "clip": 1.0,
+        "noise_multiplier": 0.7636351799316786,
+        "noise_std_on_sum": 0.7636351799316786,
+        "noise_std_on_mean": 0.09545439749145983,
+        "scope": "one training run; public validation; public deduplication and N; independent unreleased noise seed",
+        "excluded_releases": [
+          "nonprivate runs",
+          "raw training losses",
+          "data audit",
+          "hyperparameter search composition"
+        ]
+      }
+    },
+    {
+      "path": "exp1/artifacts/fixture_smoke_final/math10k/nonprivate",
+      "dataset": "math10k",
+      "method": "nonprivate",
+      "lr": 0.0003,
+      "seed": 42,
+      "validation": {
+        "mode": "smoke",
+        "count": 2,
+        "accuracy": 0.0,
+        "validation_loss": 4.815169095993042,
+        "parse_failure_rate": 1.0,
+        "generation_limit_rate": 1.0,
+        "seconds": 0.12713209260255098,
+        "peak_memory_bytes": 17618944
+      },
+      "training": {
+        "seconds": 0.1283097369596362,
+        "samples_per_second": 62.349126337283714,
+        "tokens_per_second": 1745.7755374439441,
+        "peak_memory_bytes": 21519872,
+        "peak_reserved_bytes": 27262976,
+        "completed_updates": 1
+      },
+      "schedule_sha256": "02b27172de889d46749381664d090659553b4b0d801591a804998659d53cbf52",
+      "privacy": null
+    },
+    {
+      "path": "exp1/artifacts/fixture_smoke_final/math10k/dp",
+      "dataset": "math10k",
+      "method": "dp",
+      "lr": 0.0003,
+      "seed": 42,
+      "validation": {
+        "mode": "smoke",
+        "count": 2,
+        "accuracy": 0.0,
+        "validation_loss": 4.818536996841431,
+        "parse_failure_rate": 1.0,
+        "generation_limit_rate": 1.0,
+        "seconds": 0.118045833427459,
+        "peak_memory_bytes": 17619456
+      },
+      "training": {
+        "seconds": 0.2766867778263986,
+        "samples_per_second": 28.913560896717062,
+        "tokens_per_second": 809.5797051080777,
+        "peak_memory_bytes": 21881856,
+        "peak_reserved_bytes": 27262976,
+        "completed_updates": 1
+      },
+      "schedule_sha256": "02b27172de889d46749381664d090659553b4b0d801591a804998659d53cbf52",
+      "privacy": {
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "squared_multiplicities": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "max_participations": 1,
+        "max_squared_multiplicity_sum": 1,
+        "steps": 1,
+        "logical_batch": 8,
+        "sampling_amplification": false,
+        "adjacency": "add/remove-zero-out on fixed public slots; not replacement",
+        "accountant": "GDP exact Gaussian adaptive composition; no Poisson accountant",
+        "target_epsilon": 6.0,
+        "delta": 1e-05,
+        "mu": 1.3095258394060219,
+        "epsilon": 5.999999999999997,
+        "clip": 1.0,
+        "noise_multiplier": 0.7636351799316786,
+        "noise_std_on_sum": 0.7636351799316786,
+        "noise_std_on_mean": 0.09545439749145983,
+        "scope": "one training run; public validation; public deduplication and N; independent unreleased noise seed",
+        "excluded_releases": [
+          "nonprivate runs",
+          "raw training losses",
+          "data audit",
+          "hyperparameter search composition"
+        ]
+      }
+    }
+  ],
+  "selection": {
+    "gsm8k/nonprivate": {
+      "lr": 0.0003,
+      "selected_from": "exp1/artifacts/fixture_smoke_final/gsm8k/nonprivate",
+      "rule": "max validation answer accuracy; tie: min loss, then min lr"
+    },
+    "gsm8k/dp": {
+      "lr": 0.0003,
+      "selected_from": "exp1/artifacts/fixture_smoke_final/gsm8k/dp",
+      "rule": "max validation answer accuracy; tie: min loss, then min lr"
+    },
+    "math10k/nonprivate": {
+      "lr": 0.0003,
+      "selected_from": "exp1/artifacts/fixture_smoke_final/math10k/nonprivate",
+      "rule": "max validation answer accuracy; tie: min loss, then min lr"
+    },
+    "math10k/dp": {
+      "lr": 0.0003,
+      "selected_from": "exp1/artifacts/fixture_smoke_final/math10k/dp",
+      "rule": "max validation answer accuracy; tie: min loss, then min lr"
+    }
+  },
+  "adapter_reload": true,
+  "paired_fixture_check": {
+    "a_only_correct": 0,
+    "b_only_correct": 0,
+    "difference": 0.0,
+    "mcnemar_exact_p": 1.0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mode": "smoke",
+  "count": 2,
+  "accuracy": 0.0,
+  "validation_loss": 4.818573713302612,
+  "parse_failure_rate": 1.0,
+  "generation_limit_rate": 1.0,
+  "seconds": 0.12644014600664377,
+  "peak_memory_bytes": 17619456,
+  "predictions": [
+    {
+      "id": "fixture/0",
+      "gold": "1",
+      "prediction": null,
+      "correct": false,
+      "parse_failed": true,
+      "loss": 4.848890781402588,
+      "text": "fixture generated tokens 80 26 66 66 66 66 66 66",
+      "generated_tokens": 8,
+      "hit_generation_limit": true
+    },
+    {
+      "id": "fixture/1",
+      "gold": "2",
+      "prediction": null,
+      "correct": false,
+      "parse_failed": true,
+      "loss": 4.788256645202637,
+      "text": "fixture generated tokens 80 26 66 66 66 66 66 66",
+      "generated_tokens": 8,
+      "hit_generation_limit": true
+    }
+  ]
+}

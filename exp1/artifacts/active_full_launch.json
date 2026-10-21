@@ -1,0 +1,22 @@
+{
+  "session_pid": 458689,
+  "command": [
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+    "run",
+    "--no-capture-output",
+    "-n",
+    "pndp",
+    "python",
+    "-u",
+    "-m",
+    "exp1.launch_full",
+    "--launch-dir",
+    "exp1/launches/full-20261020-retry1",
+    "--transport",
+    "modelscope"
+  ],
+  "supervisor_log": "exp1/logs/full_supervisor_20261020_retry1.log",
+  "status": "exp1/launches/full-20261020-retry1/status.json",
+  "previous_launch": "exp1/launches/full-20261020/status.json",
+  "recovery_reason": "Read timeout during weights transfer; bounded Range retries resume existing bytes; training configuration unchanged."
+}

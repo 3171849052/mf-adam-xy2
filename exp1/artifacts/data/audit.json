@@ -1,0 +1,2578 @@
+{
+  "split_seed": 20261020,
+  "validation_size": 512,
+  "counts": {
+    "gsm8k_train": 6961,
+    "validation": 512,
+    "test": 1319,
+    "math10k_raw": 9919,
+    "math10k_filtered": 9500,
+    "math10k_removed": 419
+  },
+  "near_duplicate_rule": "NFKC/casefold/word normalization; exhaustive word-set Jaccard >= 0.80",
+  "math_matches": [
+    {
+      "train_id": "math10k/6",
+      "held_id": "gsm8k/train/320",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/83",
+      "held_id": "gsm8k/train/673",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/88",
+      "held_id": "gsm8k/train/4464",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/110",
+      "held_id": "gsm8k/train/1268",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/115",
+      "held_id": "gsm8k/train/339",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/143",
+      "held_id": "gsm8k/train/745",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/247",
+      "held_id": "gsm8k/train/1122",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/261",
+      "held_id": "gsm8k/train/1845",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/267",
+      "held_id": "gsm8k/train/285",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/292",
+      "held_id": "gsm8k/train/5374",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/338",
+      "held_id": "gsm8k/train/4445",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/376",
+      "held_id": "gsm8k/train/6164",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/406",
+      "held_id": "gsm8k/train/583",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/417",
+      "held_id": "gsm8k/train/5903",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/427",
+      "held_id": "gsm8k/train/2707",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/436",
+      "held_id": "gsm8k/train/1251",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/451",
+      "held_id": "gsm8k/train/1020",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/454",
+      "held_id": "gsm8k/train/3636",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/462",
+      "held_id": "gsm8k/train/5121",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/464",
+      "held_id": "gsm8k/train/6537",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/509",
+      "held_id": "gsm8k/train/4535",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/514",
+      "held_id": "gsm8k/train/2793",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/533",
+      "held_id": "gsm8k/train/2081",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/548",
+      "held_id": "gsm8k/train/3709",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/557",
+      "held_id": "gsm8k/train/5199",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/566",
+      "held_id": "gsm8k/train/683",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/584",
+      "held_id": "gsm8k/train/1179",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/587",
+      "held_id": "gsm8k/train/6570",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/611",
+      "held_id": "gsm8k/train/4444",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/664",
+      "held_id": "gsm8k/train/5232",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/683",
+      "held_id": "gsm8k/train/3549",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/685",
+      "held_id": "gsm8k/train/3267",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/699",
+      "held_id": "gsm8k/train/5913",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/745",
+      "held_id": "gsm8k/train/5137",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/760",
+      "held_id": "gsm8k/train/1713",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/778",
+      "held_id": "gsm8k/train/1594",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/809",
+      "held_id": "gsm8k/train/1080",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/816",
+      "held_id": "gsm8k/train/4914",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/830",
+      "held_id": "gsm8k/train/2500",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/870",
+      "held_id": "gsm8k/train/41",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/886",
+      "held_id": "gsm8k/train/6459",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/889",
+      "held_id": "gsm8k/train/6772",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/916",
+      "held_id": "gsm8k/train/6227",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/917",
+      "held_id": "gsm8k/train/1839",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/933",
+      "held_id": "gsm8k/train/547",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/974",
+      "held_id": "gsm8k/train/3367",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/983",
+      "held_id": "gsm8k/train/4670",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1005",
+      "held_id": "gsm8k/train/6104",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1016",
+      "held_id": "gsm8k/train/5128",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1029",
+      "held_id": "gsm8k/train/426",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1036",
+      "held_id": "gsm8k/train/5837",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1066",
+      "held_id": "gsm8k/train/2960",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1069",
+      "held_id": "gsm8k/train/4276",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1070",
+      "held_id": "gsm8k/train/1518",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1078",
+      "held_id": "gsm8k/train/4366",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1111",
+      "held_id": "gsm8k/train/1883",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1146",
+      "held_id": "gsm8k/train/5065",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1155",
+      "held_id": "gsm8k/train/5160",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1161",
+      "held_id": "gsm8k/train/2944",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1187",
+      "held_id": "gsm8k/train/1849",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1198",
+      "held_id": "gsm8k/train/6302",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1236",
+      "held_id": "gsm8k/train/115",
+      "kind": "near_jaccard",
+      "score": 0.8333333333333334
+    },
+    {
+      "train_id": "math10k/1240",
+      "held_id": "gsm8k/train/1360",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1248",
+      "held_id": "gsm8k/train/1718",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1315",
+      "held_id": "gsm8k/train/1663",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1393",
+      "held_id": "gsm8k/train/7453",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1404",
+      "held_id": "gsm8k/train/6612",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1428",
+      "held_id": "gsm8k/train/7016",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1438",
+      "held_id": "gsm8k/train/208",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1443",
+      "held_id": "gsm8k/train/6691",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1462",
+      "held_id": "gsm8k/train/496",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1464",
+      "held_id": "gsm8k/train/186",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1474",
+      "held_id": "gsm8k/train/4939",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1526",
+      "held_id": "gsm8k/train/1935",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1540",
+      "held_id": "gsm8k/train/6567",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1601",
+      "held_id": "gsm8k/train/5141",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1643",
+      "held_id": "gsm8k/train/6542",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1654",
+      "held_id": "gsm8k/train/4900",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1658",
+      "held_id": "gsm8k/train/4012",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1674",
+      "held_id": "gsm8k/train/354",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1697",
+      "held_id": "gsm8k/train/3248",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1706",
+      "held_id": "gsm8k/train/1335",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1707",
+      "held_id": "gsm8k/train/2480",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1748",
+      "held_id": "gsm8k/train/1458",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1789",
+      "held_id": "gsm8k/train/6980",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1803",
+      "held_id": "gsm8k/train/6988",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1809",
+      "held_id": "gsm8k/train/3717",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1824",
+      "held_id": "gsm8k/train/2979",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1842",
+      "held_id": "gsm8k/train/7314",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1864",
+      "held_id": "gsm8k/train/680",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1964",
+      "held_id": "gsm8k/train/5624",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1973",
+      "held_id": "gsm8k/train/4335",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/1974",
+      "held_id": "gsm8k/train/5946",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2022",
+      "held_id": "gsm8k/train/6987",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2038",
+      "held_id": "gsm8k/train/2915",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2053",
+      "held_id": "gsm8k/train/549",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2068",
+      "held_id": "gsm8k/train/4972",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2079",
+      "held_id": "gsm8k/train/7052",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2171",
+      "held_id": "gsm8k/train/6905",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2195",
+      "held_id": "gsm8k/train/1146",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2203",
+      "held_id": "gsm8k/train/5944",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2225",
+      "held_id": "gsm8k/train/4922",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2234",
+      "held_id": "gsm8k/train/2493",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2249",
+      "held_id": "gsm8k/train/560",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2258",
+      "held_id": "gsm8k/train/6600",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2281",
+      "held_id": "gsm8k/train/7441",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2282",
+      "held_id": "gsm8k/train/628",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2312",
+      "held_id": "gsm8k/train/3066",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2330",
+      "held_id": "gsm8k/train/1994",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2383",
+      "held_id": "gsm8k/train/1021",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2390",
+      "held_id": "gsm8k/train/6204",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2412",
+      "held_id": "gsm8k/train/5032",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2495",
+      "held_id": "gsm8k/train/3653",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2511",
+      "held_id": "gsm8k/train/1219",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2539",
+      "held_id": "gsm8k/train/2116",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2549",
+      "held_id": "gsm8k/train/1355",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2588",
+      "held_id": "gsm8k/train/5130",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2600",
+      "held_id": "gsm8k/train/6100",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2684",
+      "held_id": "gsm8k/train/4142",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2722",
+      "held_id": "gsm8k/train/4977",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2748",
+      "held_id": "gsm8k/train/5414",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2751",
+      "held_id": "gsm8k/train/1767",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2868",
+      "held_id": "gsm8k/train/5872",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2877",
+      "held_id": "gsm8k/train/1482",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2895",
+      "held_id": "gsm8k/train/4700",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2947",
+      "held_id": "gsm8k/train/258",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/2950",
+      "held_id": "gsm8k/train/4352",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3007",
+      "held_id": "gsm8k/train/4596",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3073",
+      "held_id": "gsm8k/train/359",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3085",
+      "held_id": "gsm8k/train/2240",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3107",
+      "held_id": "gsm8k/train/3084",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3111",
+      "held_id": "gsm8k/train/3503",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3235",
+      "held_id": "gsm8k/train/1484",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3267",
+      "held_id": "gsm8k/train/1282",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3289",
+      "held_id": "gsm8k/train/4284",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3345",
+      "held_id": "gsm8k/train/4261",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3359",
+      "held_id": "gsm8k/train/6333",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3384",
+      "held_id": "gsm8k/train/3535",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3406",
+      "held_id": "gsm8k/train/1139",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3407",
+      "held_id": "gsm8k/train/5950",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3434",
+      "held_id": "gsm8k/train/6774",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3453",
+      "held_id": "gsm8k/train/2930",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3463",
+      "held_id": "gsm8k/train/6496",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3488",
+      "held_id": "gsm8k/train/206",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3521",
+      "held_id": "gsm8k/train/4976",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3570",
+      "held_id": "gsm8k/train/7278",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3572",
+      "held_id": "gsm8k/train/3167",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3593",
+      "held_id": "gsm8k/train/6974",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3604",
+      "held_id": "gsm8k/train/636",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3610",
+      "held_id": "gsm8k/train/722",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3626",
+      "held_id": "gsm8k/train/4884",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3651",
+      "held_id": "gsm8k/train/7300",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3656",
+      "held_id": "gsm8k/train/2156",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3681",
+      "held_id": "gsm8k/train/5859",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3708",
+      "held_id": "gsm8k/train/4827",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3722",
+      "held_id": "gsm8k/train/3808",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3733",
+      "held_id": "gsm8k/train/2547",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3734",
+      "held_id": "gsm8k/train/1749",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3746",
+      "held_id": "gsm8k/train/5287",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3750",
+      "held_id": "gsm8k/train/6234",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3754",
+      "held_id": "gsm8k/train/7190",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3777",
+      "held_id": "gsm8k/train/44",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3805",
+      "held_id": "gsm8k/train/6130",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3809",
+      "held_id": "gsm8k/train/5323",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3849",
+      "held_id": "gsm8k/train/791",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3865",
+      "held_id": "gsm8k/train/3116",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3881",
+      "held_id": "gsm8k/train/6571",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3893",
+      "held_id": "gsm8k/train/632",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3919",
+      "held_id": "gsm8k/train/2351",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/3922",
+      "held_id": "gsm8k/train/7266",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4022",
+      "held_id": "gsm8k/train/1359",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4027",
+      "held_id": "gsm8k/train/233",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4038",
+      "held_id": "gsm8k/train/1460",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4065",
+      "held_id": "gsm8k/train/5677",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4075",
+      "held_id": "gsm8k/train/2477",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4152",
+      "held_id": "gsm8k/train/1343",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4163",
+      "held_id": "gsm8k/train/5687",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4169",
+      "held_id": "gsm8k/train/1702",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4182",
+      "held_id": "gsm8k/train/1679",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4211",
+      "held_id": "gsm8k/train/719",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4214",
+      "held_id": "gsm8k/train/2308",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4250",
+      "held_id": "gsm8k/train/6676",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4256",
+      "held_id": "gsm8k/train/306",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4296",
+      "held_id": "gsm8k/train/2166",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4344",
+      "held_id": "gsm8k/train/4264",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4350",
+      "held_id": "gsm8k/train/6715",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4375",
+      "held_id": "gsm8k/train/2267",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4421",
+      "held_id": "gsm8k/train/1399",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4423",
+      "held_id": "gsm8k/train/1039",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4465",
+      "held_id": "gsm8k/train/6289",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4496",
+      "held_id": "gsm8k/train/2929",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4507",
+      "held_id": "gsm8k/train/990",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4533",
+      "held_id": "gsm8k/train/1179",
+      "kind": "near_jaccard",
+      "score": 0.84
+    },
+    {
+      "train_id": "math10k/4550",
+      "held_id": "gsm8k/train/4078",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4586",
+      "held_id": "gsm8k/train/451",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4596",
+      "held_id": "gsm8k/train/4178",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4600",
+      "held_id": "gsm8k/train/3542",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4612",
+      "held_id": "gsm8k/train/2663",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4638",
+      "held_id": "gsm8k/train/4917",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4640",
+      "held_id": "gsm8k/train/6565",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4646",
+      "held_id": "gsm8k/train/6931",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4650",
+      "held_id": "gsm8k/train/2799",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4685",
+      "held_id": "gsm8k/train/5732",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4737",
+      "held_id": "gsm8k/train/4501",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4738",
+      "held_id": "gsm8k/train/2323",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4745",
+      "held_id": "gsm8k/train/2618",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4775",
+      "held_id": "gsm8k/train/5270",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4832",
+      "held_id": "gsm8k/train/2889",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4847",
+      "held_id": "gsm8k/train/34",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4852",
+      "held_id": "gsm8k/train/4801",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4890",
+      "held_id": "gsm8k/train/5545",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4943",
+      "held_id": "gsm8k/train/6419",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/4964",
+      "held_id": "gsm8k/train/2087",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5003",
+      "held_id": "gsm8k/train/7355",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5032",
+      "held_id": "gsm8k/train/2822",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5066",
+      "held_id": "gsm8k/train/736",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5091",
+      "held_id": "gsm8k/train/6200",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5092",
+      "held_id": "gsm8k/train/6553",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5139",
+      "held_id": "gsm8k/train/3413",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5143",
+      "held_id": "gsm8k/train/1285",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5210",
+      "held_id": "gsm8k/train/3290",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5256",
+      "held_id": "gsm8k/train/4722",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5287",
+      "held_id": "gsm8k/train/1919",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5298",
+      "held_id": "gsm8k/train/4258",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5299",
+      "held_id": "gsm8k/train/797",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5301",
+      "held_id": "gsm8k/train/7053",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5322",
+      "held_id": "gsm8k/train/3327",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5337",
+      "held_id": "gsm8k/train/1026",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5355",
+      "held_id": "gsm8k/train/3233",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5374",
+      "held_id": "gsm8k/train/1794",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5413",
+      "held_id": "gsm8k/train/4055",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5430",
+      "held_id": "gsm8k/train/6557",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5440",
+      "held_id": "gsm8k/train/735",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5446",
+      "held_id": "gsm8k/train/1231",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5456",
+      "held_id": "gsm8k/train/2654",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5484",
+      "held_id": "gsm8k/train/3054",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5538",
+      "held_id": "gsm8k/train/6729",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5575",
+      "held_id": "gsm8k/train/2314",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5607",
+      "held_id": "gsm8k/train/4203",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5620",
+      "held_id": "gsm8k/train/6129",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5689",
+      "held_id": "gsm8k/train/2791",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5740",
+      "held_id": "gsm8k/train/7374",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5760",
+      "held_id": "gsm8k/train/168",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5796",
+      "held_id": "gsm8k/train/5623",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5798",
+      "held_id": "gsm8k/train/918",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5802",
+      "held_id": "gsm8k/train/913",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5837",
+      "held_id": "gsm8k/train/5899",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5847",
+      "held_id": "gsm8k/train/556",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5866",
+      "held_id": "gsm8k/train/7139",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5888",
+      "held_id": "gsm8k/train/6798",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5917",
+      "held_id": "gsm8k/train/6139",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5920",
+      "held_id": "gsm8k/train/2921",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5933",
+      "held_id": "gsm8k/train/1404",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5959",
+      "held_id": "gsm8k/train/1672",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/5989",
+      "held_id": "gsm8k/train/107",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6072",
+      "held_id": "gsm8k/train/2524",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6073",
+      "held_id": "gsm8k/train/3574",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6096",
+      "held_id": "gsm8k/train/6264",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6114",
+      "held_id": "gsm8k/train/3287",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6125",
+      "held_id": "gsm8k/train/5054",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6135",
+      "held_id": "gsm8k/train/4957",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6139",
+      "held_id": "gsm8k/train/4622",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6144",
+      "held_id": "gsm8k/train/6318",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6179",
+      "held_id": "gsm8k/train/4397",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6251",
+      "held_id": "gsm8k/train/3651",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6278",
+      "held_id": "gsm8k/train/5162",
+      "kind": "near_jaccard",
+      "score": 0.8333333333333334
+    },
+    {
+      "train_id": "math10k/6311",
+      "held_id": "gsm8k/train/1250",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6312",
+      "held_id": "gsm8k/train/4394",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6332",
+      "held_id": "gsm8k/train/115",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6361",
+      "held_id": "gsm8k/train/7447",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6362",
+      "held_id": "gsm8k/train/2982",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6413",
+      "held_id": "gsm8k/train/5772",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6423",
+      "held_id": "gsm8k/train/1651",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6537",
+      "held_id": "gsm8k/train/4818",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6573",
+      "held_id": "gsm8k/train/1105",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6618",
+      "held_id": "gsm8k/train/6934",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6645",
+      "held_id": "gsm8k/train/874",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6663",
+      "held_id": "gsm8k/train/4415",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6692",
+      "held_id": "gsm8k/train/1740",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6703",
+      "held_id": "gsm8k/train/7198",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6716",
+      "held_id": "gsm8k/train/1931",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6731",
+      "held_id": "gsm8k/train/4803",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6783",
+      "held_id": "gsm8k/train/2491",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6786",
+      "held_id": "gsm8k/train/6221",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6808",
+      "held_id": "gsm8k/train/6933",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6841",
+      "held_id": "gsm8k/train/7347",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6864",
+      "held_id": "gsm8k/train/6784",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6878",
+      "held_id": "gsm8k/train/2264",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6908",
+      "held_id": "gsm8k/train/1710",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6920",
+      "held_id": "gsm8k/train/4109",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6928",
+      "held_id": "gsm8k/train/790",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6930",
+      "held_id": "gsm8k/train/5515",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6945",
+      "held_id": "gsm8k/train/7439",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6951",
+      "held_id": "gsm8k/train/1266",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6973",
+      "held_id": "gsm8k/train/6090",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6974",
+      "held_id": "gsm8k/train/812",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6985",
+      "held_id": "gsm8k/train/5013",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/6989",
+      "held_id": "gsm8k/train/3937",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7028",
+      "held_id": "gsm8k/train/236",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7032",
+      "held_id": "gsm8k/train/5458",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7037",
+      "held_id": "gsm8k/train/3180",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7056",
+      "held_id": "gsm8k/train/2043",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7083",
+      "held_id": "gsm8k/train/4334",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7091",
+      "held_id": "gsm8k/train/2331",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7111",
+      "held_id": "gsm8k/train/1693",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7115",
+      "held_id": "gsm8k/train/5209",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7117",
+      "held_id": "gsm8k/train/4829",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7119",
+      "held_id": "gsm8k/train/5481",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7143",
+      "held_id": "gsm8k/train/6371",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7223",
+      "held_id": "gsm8k/train/4906",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7270",
+      "held_id": "gsm8k/train/7081",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7282",
+      "held_id": "gsm8k/train/110",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7309",
+      "held_id": "gsm8k/train/1511",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7317",
+      "held_id": "gsm8k/train/1768",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7327",
+      "held_id": "gsm8k/train/2088",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7338",
+      "held_id": "gsm8k/train/5838",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7376",
+      "held_id": "gsm8k/train/663",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7385",
+      "held_id": "gsm8k/train/5312",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7492",
+      "held_id": "gsm8k/train/4484",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7516",
+      "held_id": "gsm8k/train/6043",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7543",
+      "held_id": "gsm8k/train/6982",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7551",
+      "held_id": "gsm8k/train/39",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7567",
+      "held_id": "gsm8k/train/759",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7583",
+      "held_id": "gsm8k/train/4662",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7600",
+      "held_id": "gsm8k/train/6006",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7639",
+      "held_id": "gsm8k/train/4006",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7644",
+      "held_id": "gsm8k/train/972",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7654",
+      "held_id": "gsm8k/train/429",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7703",
+      "held_id": "gsm8k/train/5319",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7716",
+      "held_id": "gsm8k/train/6753",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7717",
+      "held_id": "gsm8k/train/5560",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7721",
+      "held_id": "gsm8k/train/4628",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7732",
+      "held_id": "gsm8k/train/2881",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7741",
+      "held_id": "gsm8k/train/2231",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7748",
+      "held_id": "gsm8k/train/920",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7767",
+      "held_id": "gsm8k/train/4819",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7820",
+      "held_id": "gsm8k/train/3738",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7824",
+      "held_id": "gsm8k/train/6178",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7854",
+      "held_id": "gsm8k/train/5162",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7886",
+      "held_id": "gsm8k/train/3226",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7938",
+      "held_id": "gsm8k/train/3143",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7957",
+      "held_id": "gsm8k/train/4223",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7962",
+      "held_id": "gsm8k/train/2676",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/7980",
+      "held_id": "gsm8k/train/1315",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8026",
+      "held_id": "gsm8k/train/62",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8035",
+      "held_id": "gsm8k/train/3224",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8042",
+      "held_id": "gsm8k/train/635",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8080",
+      "held_id": "gsm8k/train/7132",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8103",
+      "held_id": "gsm8k/train/2372",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8115",
+      "held_id": "gsm8k/train/6089",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8137",
+      "held_id": "gsm8k/train/716",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8172",
+      "held_id": "gsm8k/train/31",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8193",
+      "held_id": "gsm8k/train/4393",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8239",
+      "held_id": "gsm8k/train/6001",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8332",
+      "held_id": "gsm8k/train/7001",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8349",
+      "held_id": "gsm8k/train/5450",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8370",
+      "held_id": "gsm8k/train/2465",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8374",
+      "held_id": "gsm8k/train/1123",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8380",
+      "held_id": "gsm8k/train/2901",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8400",
+      "held_id": "gsm8k/train/6521",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8422",
+      "held_id": "gsm8k/train/2119",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8446",
+      "held_id": "gsm8k/train/6450",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8450",
+      "held_id": "gsm8k/train/4467",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8497",
+      "held_id": "gsm8k/train/300",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8573",
+      "held_id": "gsm8k/train/3728",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8591",
+      "held_id": "gsm8k/train/1628",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8611",
+      "held_id": "gsm8k/train/6143",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8643",
+      "held_id": "gsm8k/train/746",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8646",
+      "held_id": "gsm8k/train/1004",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8688",
+      "held_id": "gsm8k/train/3679",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8713",
+      "held_id": "gsm8k/train/7013",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8759",
+      "held_id": "gsm8k/train/4895",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8762",
+      "held_id": "gsm8k/train/7211",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8774",
+      "held_id": "gsm8k/train/2579",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8804",
+      "held_id": "gsm8k/train/2652",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8827",
+      "held_id": "gsm8k/train/5953",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8828",
+      "held_id": "gsm8k/train/6786",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8847",
+      "held_id": "gsm8k/train/4574",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8895",
+      "held_id": "gsm8k/train/3070",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8923",
+      "held_id": "gsm8k/train/5069",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/8976",
+      "held_id": "gsm8k/train/3977",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9049",
+      "held_id": "gsm8k/train/5265",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9066",
+      "held_id": "gsm8k/train/5617",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9067",
+      "held_id": "gsm8k/train/5543",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9070",
+      "held_id": "gsm8k/train/2082",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9121",
+      "held_id": "gsm8k/train/3855",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9147",
+      "held_id": "gsm8k/train/3007",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9220",
+      "held_id": "gsm8k/train/7096",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9246",
+      "held_id": "gsm8k/train/2702",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9272",
+      "held_id": "gsm8k/train/269",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9339",
+      "held_id": "gsm8k/train/6766",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9385",
+      "held_id": "gsm8k/train/4942",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9402",
+      "held_id": "gsm8k/train/3539",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9415",
+      "held_id": "gsm8k/train/203",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9433",
+      "held_id": "gsm8k/train/6020",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9458",
+      "held_id": "gsm8k/train/48",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9468",
+      "held_id": "gsm8k/train/4457",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9475",
+      "held_id": "gsm8k/train/6095",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9487",
+      "held_id": "gsm8k/train/4162",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9488",
+      "held_id": "gsm8k/train/4008",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9489",
+      "held_id": "gsm8k/train/5014",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9491",
+      "held_id": "gsm8k/train/2973",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9516",
+      "held_id": "gsm8k/train/1929",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9564",
+      "held_id": "gsm8k/train/2879",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9592",
+      "held_id": "gsm8k/train/6989",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9630",
+      "held_id": "gsm8k/train/5507",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9640",
+      "held_id": "gsm8k/train/329",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9655",
+      "held_id": "gsm8k/train/4348",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9659",
+      "held_id": "gsm8k/train/6652",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9700",
+      "held_id": "gsm8k/train/3231",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9746",
+      "held_id": "gsm8k/train/4030",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9781",
+      "held_id": "gsm8k/train/2458",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9783",
+      "held_id": "gsm8k/train/1027",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9822",
+      "held_id": "gsm8k/train/4665",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9863",
+      "held_id": "gsm8k/train/2922",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9866",
+      "held_id": "gsm8k/train/6813",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9892",
+      "held_id": "gsm8k/train/3383",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9909",
+      "held_id": "gsm8k/train/895",
+      "kind": "normalized_exact",
+      "score": 1.0
+    },
+    {
+      "train_id": "math10k/9917",
+      "held_id": "gsm8k/train/3420",
+      "kind": "normalized_exact",
+      "score": 1.0
+    }
+  ],
+  "official_gsm_split_matches": [
+    {
+      "train_id": "gsm8k/train/1314",
+      "held_id": "gsm8k/train/5162",
+      "kind": "near_jaccard",
+      "score": 0.8333333333333334
+    },
+    {
+      "train_id": "gsm8k/train/2245",
+      "held_id": "gsm8k/train/206",
+      "kind": "near_jaccard",
+      "score": 0.8
+    },
+    {
+      "train_id": "gsm8k/train/2257",
+      "held_id": "gsm8k/train/115",
+      "kind": "near_jaccard",
+      "score": 0.8333333333333334
+    },
+    {
+      "train_id": "gsm8k/train/2399",
+      "held_id": "gsm8k/train/1179",
+      "kind": "near_jaccard",
+      "score": 0.84
+    },
+    {
+      "train_id": "gsm8k/train/2483",
+      "held_id": "gsm8k/train/6691",
+      "kind": "near_jaccard",
+      "score": 0.9310344827586207
+    }
+  ],
+  "provenance_heuristics": {
+    "unverified_likely_MAWPS_or_modified_GSM8K": 3069,
+    "matches_gsm8k_train": 6137,
+    "multiple_choice_likely_AQuA": 713
+  },
+  "within_dataset_normalized_duplicate_excess": {
+    "gsm8k": 0,
+    "math10k": 1232
+  },
+  "risks": [
+    "Lexical audit cannot exclude semantic paraphrases, translations or pretraining contamination.",
+    "Math-10K includes GSM8K, MAWPS and 1000 AQuA per the pinned official README; no reliable per-row provenance.",
+    "Generated Math-10K rationales can contradict supplied labels; retained as upstream, with a final supplied-label marker.",
+    "Held-out questions are accessed for decontamination only; no official test predictions or metrics before freeze.",
+    "Public data-dependent deduplication is outside the per-fit fixed-slot DP guarantee.",
+    "Internal validation and official tests are public evaluation data, not protected training records."
+  ]
+}

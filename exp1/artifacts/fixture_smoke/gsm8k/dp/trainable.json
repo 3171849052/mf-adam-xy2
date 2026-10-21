@@ -1,0 +1,219 @@
+{
+  "parameters": {
+    "base_model.model.model.language_model.layers.0.linear_attn.out_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.out_proj.lora_B.default.weight": {
+      "shape": [
+        32,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_qkv.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_qkv.lora_B.default.weight": {
+      "shape": [
+        48,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_z.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_z.lora_B.default.weight": {
+      "shape": [
+        16,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_b.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_b.lora_B.default.weight": {
+      "shape": [
+        2,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_a.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.linear_attn.in_proj_a.lora_B.default.weight": {
+      "shape": [
+        2,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.gate_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.gate_proj.lora_B.default.weight": {
+      "shape": [
+        64,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.up_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.up_proj.lora_B.default.weight": {
+      "shape": [
+        64,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.down_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        64
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.0.mlp.down_proj.lora_B.default.weight": {
+      "shape": [
+        32,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.q_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.q_proj.lora_B.default.weight": {
+      "shape": [
+        64,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.k_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.k_proj.lora_B.default.weight": {
+      "shape": [
+        16,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.v_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.v_proj.lora_B.default.weight": {
+      "shape": [
+        16,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.o_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.self_attn.o_proj.lora_B.default.weight": {
+      "shape": [
+        32,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.gate_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.gate_proj.lora_B.default.weight": {
+      "shape": [
+        64,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.up_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        32
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.up_proj.lora_B.default.weight": {
+      "shape": [
+        64,
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.down_proj.lora_A.default.weight": {
+      "shape": [
+        16,
+        64
+      ],
+      "dtype": "torch.float32"
+    },
+    "base_model.model.model.language_model.layers.1.mlp.down_proj.lora_B.default.weight": {
+      "shape": [
+        32,
+        16
+      ],
+      "dtype": "torch.float32"
+    }
+  },
+  "count": 17216,
+  "backbone_dtype": "torch.bfloat16",
+  "checkpointing": true,
+  "vision": "frozen, unused for text",
+  "targets": "all language decoder nn.Linear, including gated delta projections"
+}

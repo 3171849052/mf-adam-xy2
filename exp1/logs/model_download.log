@@ -1,0 +1,153 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 10 files:  10%|█         | 1/10 [00:01<00:13,  1.50s/it]Fetching 10 files:  20%|██        | 2/10 [00:02<00:08,  1.07s/it]Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00001-of-00004.safetensors: peer closed connection without sending complete message body (received 67748935 bytes, expected 5276436216)
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00004-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00001-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00003-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00002-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00001-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Error while downloading from https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors-00004-of-00004.safetensors: The read operation timed out
+Trying to resume download...
+Fetching 10 files:  20%|██        | 2/10 [06:16<25:06, 188.34s/it]
+'timed out' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen3.5-9B-Base/resolve/68c46c4b3498877f3ef123c856ecfde50c39f404/model.safetensors.index.json
+Retrying in 1s [Retry 1/5].
+Traceback (most recent call last):
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/http_proxy.py", line 288, in handle_request
+    connect_response = self._connection.handle_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 456, in snapshot_download
+    thread_map(
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/tqdm/contrib/concurrent.py", line 69, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/tqdm/contrib/concurrent.py", line 51, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, chunksize=chunksize), **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py", line 436, in _inner_hf_hub_download
+    hf_hub_download(  # type: ignore
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 995, in hf_hub_download
+    return _hf_hub_download_to_local_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1449, in _hf_hub_download_to_local_dir
+    _download_to_tmp_and_move(
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1877, in _download_to_tmp_and_move
+    http_get(
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 450, in http_get
+    return http_get(
+           ^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 450, in http_get
+    return http_get(
+           ^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 450, in http_get
+    return http_get(
+           ^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 372, in http_get
+    with http_stream_backoff(
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 659, in http_stream_backoff
+    yield from _http_backoff_base(
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 477, in _http_backoff_base
+    with client.stream(method=method, url=url, **kwargs) as response:
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_client.py", line 868, in stream
+    response = self.send(
+               ^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+ERROR conda.cli.main_run:execute(127): `conda run python -u -` failed. (See above for error)

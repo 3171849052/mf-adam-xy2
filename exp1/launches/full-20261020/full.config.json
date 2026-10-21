@@ -1,0 +1,26 @@
+{
+  "mode": "full",
+  "steps": 300,
+  "logical_batch": 64,
+  "physical_batch": 4,
+  "max_length": 1664,
+  "length_decision": "256 audit: GSM8K 1523/6961 and Math10K 3079/9500 overlength; maximum 1595. Explicitly raise to 1664; never truncate.",
+  "max_new_tokens": 512,
+  "gradient_checkpointing": true,
+  "learning_rates": [
+    0.0001,
+    0.0003,
+    0.0005
+  ],
+  "search_seed": 42,
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "clip": 1.0,
+  "epsilon": 6.0,
+  "delta": 1e-05,
+  "eval_limit": null,
+  "train_limit": null
+}

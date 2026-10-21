@@ -1,0 +1,25 @@
+{
+  "sources_lock_sha256": "a50fa5c6b2021a59541e03737eacc77b06eb3ab73ee15fd33cb3ed1814eaff89",
+  "splits": {
+    "gsm8k": {
+      "path": "data/exp1/processed/gsm8k.jsonl",
+      "sha256": "a100466fad7a13f51ca338621553e86a2c52915e14a69fa4d056e08373adaf6e",
+      "count": 6961
+    },
+    "math10k": {
+      "path": "data/exp1/processed/math10k.jsonl",
+      "sha256": "7da4b8b814b9677472d9a17a5fbd6ffe5a26e3144b05dccc7ab2d8cfddb5d07e",
+      "count": 9500
+    },
+    "validation": {
+      "path": "data/exp1/processed/validation.jsonl",
+      "sha256": "f75b284a04fe0abf657549e4e4abd783d30f3d0a5d3354cf3392a8da747a48eb",
+      "count": 512
+    },
+    "test": {
+      "path": "data/exp1/processed/test.jsonl",
+      "sha256": "9ac299cc22f224aed4d2874967a079370dac57a5a96eba1260108c810b939a13",
+      "count": 1319
+    }
+  }
+}

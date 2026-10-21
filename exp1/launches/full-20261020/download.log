@@ -1,0 +1,60 @@
+ModelScope byte transport: model.safetensors-00001-of-00004.safetensors; expected SHA256=862bf7bba8a50145d19d0ae463931fae515284024736592a73a336bc4dfa54eeModelScope byte transport: model.safetensors-00002-of-00004.safetensors; expected SHA256=bace8e115e11ca93c22f0352a60d2fb0c76ac6d7d1c2993c143b7ad2b6c8868cModelScope byte transport: model.safetensors-00003-of-00004.safetensors; expected SHA256=63a021ac0011cbfc66166e77103327a8b45dee95832e36551f6b4c3337448959
+
+
+ModelScope byte transport: model.safetensors-00004-of-00004.safetensors; expected SHA256=1a643bbed669266917b5058b5d3f660c03233599249ff7d8fd083decfe662ae0
+model.safetensors-00001-of-00004.safetensors: 536870912 bytes / 541.8s
+model.safetensors-00002-of-00004.safetensors: 536870912 bytes / 554.6s
+model.safetensors-00003-of-00004.safetensors: 536870912 bytes / 554.8s
+model.safetensors-00004-of-00004.safetensors: 536870912 bytes / 557.7s
+model.safetensors-00001-of-00004.safetensors: 805306368 bytes / 1127.8s
+model.safetensors-00002-of-00004.safetensors: 805306368 bytes / 1137.5s
+model.safetensors-00003-of-00004.safetensors: 805306368 bytes / 1138.5s
+model.safetensors-00004-of-00004.safetensors: 805306368 bytes / 1141.1s
+model.safetensors-00001-of-00004.safetensors: 1073741824 bytes / 1721.0s
+model.safetensors-00002-of-00004.safetensors: 1073741824 bytes / 1733.3s
+model.safetensors-00003-of-00004.safetensors: 1073741824 bytes / 1735.3s
+model.safetensors-00004-of-00004.safetensors: 1073741824 bytes / 1739.5s
+model.safetensors-00001-of-00004.safetensors: 1342177280 bytes / 2308.5s
+model.safetensors-00002-of-00004.safetensors: 1342177280 bytes / 2321.9s
+model.safetensors-00003-of-00004.safetensors: 1342177280 bytes / 2323.4s
+model.safetensors-00004-of-00004.safetensors: 1342177280 bytes / 2326.1s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 58, in <module>
+    main()
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/__main__.py", line 30, in main
+    download_model(a.transport)
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/modeling.py", line 90, in download_model
+    list(pool.map(fetch, lock["files"].items()))
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/modeling.py", line 81, in fetch
+    while chunk := source.read(8 << 20):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/http/client.py", line 478, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/lib/python3.11/ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1 download --transport modelscope` failed. (See above for error)

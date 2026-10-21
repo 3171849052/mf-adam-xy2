@@ -1,0 +1,44 @@
+{
+  "counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "squared_multiplicities": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "max_participations": 1,
+  "max_squared_multiplicity_sum": 1,
+  "steps": 1,
+  "logical_batch": 8,
+  "sampling_amplification": false,
+  "adjacency": "add/remove-zero-out on fixed public slots; not replacement",
+  "accountant": "GDP exact Gaussian adaptive composition; no Poisson accountant",
+  "target_epsilon": 6.0,
+  "delta": 1e-05,
+  "mu": 1.3095258394060219,
+  "epsilon": 5.999999999999997,
+  "clip": 1.0,
+  "noise_multiplier": 0.7636351799316786,
+  "noise_std_on_sum": 0.7636351799316786,
+  "noise_std_on_mean": 0.09545439749145983,
+  "scope": "one training run; public validation; public deduplication and N; independent unreleased noise seed",
+  "excluded_releases": [
+    "nonprivate runs",
+    "raw training losses",
+    "data audit",
+    "hyperparameter search composition"
+  ]
+}

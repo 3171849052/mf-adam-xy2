@@ -1,0 +1,6 @@
+[transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+smoke gsm8k nonprivate seed=42 lr=0.0003 step=1/1
+smoke gsm8k dp seed=42 lr=0.0003 step=1/1
+smoke math10k nonprivate seed=42 lr=0.0003 step=1/1
+smoke math10k dp seed=42 lr=0.0003 step=1/1
+{"passed": true, "fixture": true, "result": "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/artifacts/fixture_smoke_verified/result.json"}

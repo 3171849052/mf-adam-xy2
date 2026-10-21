@@ -1,0 +1,41 @@
+test_config_modes_and_heldout_gate (test_core.DataLossTests.test_config_modes_and_heldout_gate) ... ok
+test_mask_and_no_silent_truncation (test_core.DataLossTests.test_mask_and_no_silent_truncation) ... ok
+test_normalization_and_near_decontamination (test_core.DataLossTests.test_normalization_and_near_decontamination) ... ok
+test_parser (test_core.DataLossTests.test_parser) ... ok
+test_sample_mean_instead_of_token_mean (test_core.DataLossTests.test_sample_mean_instead_of_token_mean) ... ok
+test_batch_boundary_duplicate_sensitivity (test_core.SchedulePrivacyTests.test_batch_boundary_duplicate_sensitivity) ... ok
+test_composition_and_noise_scaling (test_core.SchedulePrivacyTests.test_composition_and_noise_scaling) ... ok
+test_permutations_and_counts (test_core.SchedulePrivacyTests.test_permutations_and_counts) ... ok
+test_single_noise_on_sum_then_average (test_core.SchedulePrivacyTests.test_single_noise_on_sum_then_average) ... ok
+test_paired_correctness (test_core.SelectionTests.test_paired_correctness) ... ok
+test_selection_uses_validation (test_core.SelectionTests.test_selection_uses_validation) ... ok
+test_invalid_content_range_is_not_retried_or_appended (test_downloads.RangeDownloadTests.test_invalid_content_range_is_not_retried_or_appended) ... DOWNLOAD_RANGE weights.partial: 3-9/10
+ok
+test_partial_write_timeout_resumes_without_repeating_bytes (test_downloads.RangeDownloadTests.test_partial_write_timeout_resumes_without_repeating_bytes) ... DOWNLOAD_RANGE weights.partial: 5-12/36
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected transient read timeout; retry=1/12, resume_byte=8, delay=2s
+DOWNLOAD_RANGE weights.partial: 8-15/36
+DOWNLOAD_PROGRESS weights.partial: 16/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 16-23/36
+DOWNLOAD_PROGRESS weights.partial: 24/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 24-31/36
+DOWNLOAD_PROGRESS weights.partial: 32/36 bytes, elapsed=0.0s
+DOWNLOAD_RANGE weights.partial: 32-35/36
+DOWNLOAD_PROGRESS weights.partial: 36/36 bytes, elapsed=0.0s
+ok
+test_retry_budget_is_bounded_and_missing_file_remains_missing (test_downloads.RangeDownloadTests.test_retry_budget_is_bounded_and_missing_file_remains_missing) ... DOWNLOAD_RANGE weights.partial: 0-9/10
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected; retry=1/2, resume_byte=0, delay=2s
+DOWNLOAD_RANGE weights.partial: 0-9/10
+DOWNLOAD_RETRY weights.partial: TimeoutError: injected; retry=2/2, resume_byte=0, delay=4s
+DOWNLOAD_RANGE weights.partial: 0-9/10
+ok
+test_bfloat16_hybrid_qwen_gpu (test_ghost.GhostTests.test_bfloat16_hybrid_qwen_gpu) ... [transformers] The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+ok
+test_chunked_loss_and_gradients (test_ghost.GhostTests.test_chunked_loss_and_gradients) ... ok
+test_hybrid_qwen_cpu_and_checkpointing (test_ghost.GhostTests.test_hybrid_qwen_cpu_and_checkpointing) ... ok
+test_reject_shared_adapter_execution (test_ghost.GhostTests.test_reject_shared_adapter_execution) ... ok
+test_reject_uncovered_trainable_parameters (test_ghost.GhostTests.test_reject_uncovered_trainable_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 114.790s
+
+OK

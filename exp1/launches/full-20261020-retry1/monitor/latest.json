@@ -1,0 +1,55 @@
+{
+  "observed_at": "2026-10-20T22:06:06+08:00",
+  "launch_status": "failed",
+  "stage": "smoke_9b",
+  "supervisor": {
+    "alive": false,
+    "pid": 458899
+  },
+  "child": {
+    "alive": false,
+    "pid": 680042
+  },
+  "gpu": {
+    "name": "NVIDIA A800 80GB PCIe",
+    "memory_mib": 0.0,
+    "utilization_percent": 0.0,
+    "power_w": 48.73
+  },
+  "weight_bytes": 19306310872,
+  "expected_weight_bytes": 19306310872,
+  "weight_percent": 100.0,
+  "recent_download_bytes_per_second": 0,
+  "estimated_download_seconds_remaining": null,
+  "download_no_progress_seconds": 0.0,
+  "weight_files": {
+    "model.safetensors-00001-of-00004.safetensors": {
+      "bytes": 5276436216,
+      "expected_bytes": 5276436216,
+      "complete_file_exists": true
+    },
+    "model.safetensors-00002-of-00004.safetensors": {
+      "bytes": 5335161576,
+      "expected_bytes": 5335161576,
+      "complete_file_exists": true
+    },
+    "model.safetensors-00003-of-00004.safetensors": {
+      "bytes": 5368717376,
+      "expected_bytes": 5368717376,
+      "complete_file_exists": true
+    },
+    "model.safetensors-00004-of-00004.safetensors": {
+      "bytes": 3325995704,
+      "expected_bytes": 3325995704,
+      "complete_file_exists": true
+    }
+  },
+  "last_optimizer_update": null,
+  "full_ghost_passed": false,
+  "full_configuration_frozen": false,
+  "official_test_evaluated": false,
+  "issues": [
+    "Stage smoke_9b failed; returncode=1; ",
+    "Stage log contains an error: AssertionError: Clipped gradient error 0.03203529605834018 > 0.03 at physical=2"
+  ]
+}

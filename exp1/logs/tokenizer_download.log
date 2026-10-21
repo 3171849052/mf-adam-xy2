@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/model/Qwen3.5-9B-Base/tokenizer.json
+/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/model/Qwen3.5-9B-Base/tokenizer_config.json
+/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/model/Qwen3.5-9B-Base/vocab.json
+/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/model/Qwen3.5-9B-Base/model.safetensors.index.json

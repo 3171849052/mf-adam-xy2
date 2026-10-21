@@ -1,0 +1,141 @@
+{
+  "stages": [
+    [
+      "download",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "download",
+        "--transport",
+        "modelscope"
+      ]
+    ],
+    [
+      "unit_tests",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "exp1/tests",
+        "-v"
+      ]
+    ],
+    [
+      "smoke_9b",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "run",
+        "--config",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020/smoke.config.json",
+        "--output",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/smoke-9b"
+      ]
+    ],
+    [
+      "full",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "run",
+        "--config",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020/full.config.json",
+        "--output",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/full"
+      ]
+    ],
+    [
+      "final",
+      [
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+        "run",
+        "--no-capture-output",
+        "-n",
+        "pndp",
+        "python",
+        "-u",
+        "-m",
+        "exp1",
+        "final",
+        "--run",
+        "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/full"
+      ]
+    ]
+  ],
+  "smoke_config": {
+    "mode": "smoke",
+    "steps": 1,
+    "logical_batch": 8,
+    "physical_batch": 4,
+    "max_length": 256,
+    "max_new_tokens": 8,
+    "gradient_checkpointing": true,
+    "learning_rates": [
+      0.0003
+    ],
+    "search_seed": 42,
+    "seeds": [
+      2026
+    ],
+    "clip": 1.0,
+    "epsilon": 6.0,
+    "delta": 1e-05,
+    "eval_limit": 2,
+    "train_limit": 64
+  },
+  "full_config": {
+    "mode": "full",
+    "steps": 300,
+    "logical_batch": 64,
+    "physical_batch": 4,
+    "max_length": 1664,
+    "length_decision": "256 audit: GSM8K 1523/6961 and Math10K 3079/9500 overlength; maximum 1595. Explicitly raise to 1664; never truncate.",
+    "max_new_tokens": 512,
+    "gradient_checkpointing": true,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.0005
+    ],
+    "search_seed": 42,
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "clip": 1.0,
+    "epsilon": 6.0,
+    "delta": 1e-05,
+    "eval_limit": null,
+    "train_limit": null
+  }
+}

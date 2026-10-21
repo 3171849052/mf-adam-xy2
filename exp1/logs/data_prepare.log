@@ -1,0 +1,8 @@
+{
+  "gsm8k_train": 6961,
+  "validation": 512,
+  "test": 1319,
+  "math10k_raw": 9919,
+  "math10k_filtered": 9500,
+  "math10k_removed": 419
+}

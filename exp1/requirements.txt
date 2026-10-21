@@ -1,0 +1,11 @@
+# Tested in the existing pndp Conda environment (Python 3.11.15 / CUDA 12.8).
+torch==2.8.0
+transformers==5.12.1
+peft==0.19.1
+opacus==1.6.0
+numpy==2.4.6
+scipy==1.17.1
+huggingface-hub==1.21.0
+safetensors==0.8.0
+accelerate==1.14.0
+tokenizers==0.22.2

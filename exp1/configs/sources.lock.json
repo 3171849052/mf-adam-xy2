@@ -1,0 +1,78 @@
+{
+  "sources": {
+    "gsm8k_train": {
+      "repository": "openai/grade-school-math",
+      "revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
+      "path": "data/raw/train.jsonl",
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    "gsm8k_test": {
+      "repository": "openai/grade-school-math",
+      "revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "path": "data/raw/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "math10k": {
+      "repository": "AGI-Edgerunners/LLM-Adapters",
+      "revision": "816657208af4db747803f87ba40a4c71383fed7a",
+      "url": "https://raw.githubusercontent.com/AGI-Edgerunners/LLM-Adapters/816657208af4db747803f87ba40a4c71383fed7a/ft-training_set/math_10k.json",
+      "path": "data/raw/math_10k.json",
+      "sha256": "0342d0d860ad8592b579329337c90e42eefd3d9f2898043140cbd120630418b8"
+    },
+    "math10k_readme": {
+      "repository": "AGI-Edgerunners/LLM-Adapters",
+      "revision": "816657208af4db747803f87ba40a4c71383fed7a",
+      "url": "https://raw.githubusercontent.com/AGI-Edgerunners/LLM-Adapters/816657208af4db747803f87ba40a4c71383fed7a/README.md",
+      "path": "data/raw/README.md",
+      "sha256": "bd9a7d1f6306d735b01c97e07afaf65b0670d992bce76d25dc3a688e94596c28"
+    }
+  },
+  "model": {
+    "id": "Qwen/Qwen3.5-9B-Base",
+    "revision": "68c46c4b3498877f3ef123c856ecfde50c39f404",
+    "files": {
+      "model.safetensors-00001-of-00004.safetensors": {
+        "sha256": "862bf7bba8a50145d19d0ae463931fae515284024736592a73a336bc4dfa54ee",
+        "size": 5276436216
+      },
+      "model.safetensors-00002-of-00004.safetensors": {
+        "sha256": "bace8e115e11ca93c22f0352a60d2fb0c76ac6d7d1c2993c143b7ad2b6c8868c",
+        "size": 5335161576
+      },
+      "model.safetensors-00003-of-00004.safetensors": {
+        "sha256": "63a021ac0011cbfc66166e77103327a8b45dee95832e36551f6b4c3337448959",
+        "size": 5368717376
+      },
+      "model.safetensors-00004-of-00004.safetensors": {
+        "sha256": "1a643bbed669266917b5058b5d3f660c03233599249ff7d8fd083decfe662ae0",
+        "size": 3325995704
+      },
+      "tokenizer.json": {
+        "sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+        "size": 12807196
+      },
+      "config.json": {
+        "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+        "size": 3126
+      },
+      "tokenizer_config.json": {
+        "sha256": "3891e840d7dc5fca0af33d3a25083a735e36fe06214e3f707024820cb6b9f89c",
+        "size": 16713
+      },
+      "merges.txt": {
+        "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+        "size": 3353259
+      },
+      "vocab.json": {
+        "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+        "size": 6722759
+      },
+      "model.safetensors.index.json": {
+        "sha256": "026b9d9fe03f19fd065f2a2f56a332c67640878106c0ca6be2f60c655ed5a8c1",
+        "size": 79657
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{"observed_at": "2026-10-20T19:35:54+08:00", "stage": "download", "status": "running", "issues": []}
+{"observed_at": "2026-10-20T20:12:38+08:00", "stage": "download", "status": "running", "issues": ["Stage log contains an error: Traceback (most recent call last):"]}
+{"observed_at": "2026-10-20T20:13:08+08:00", "stage": "download", "status": "failed", "issues": ["Stage download failed; returncode=1; ", "Stage log contains an error: Traceback (most recent call last):"]}

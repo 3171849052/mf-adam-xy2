@@ -1,0 +1,1 @@
+/tmp/tmpbuianxiu: line 3: 2682209 Killed                  python -u exp1/ops/diagnose_ghost.py --output exp1/artifacts/ghost_diagnostic_default.json

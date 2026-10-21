@@ -1,0 +1,3 @@
+2026-10-20T19:28:48+08:00 START download; log=/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020/download.log
+2026-10-20T20:12:42+08:00 FAILED download, exit=1; later stages were not started
+ERROR conda.cli.main_run:execute(127): `conda run python -u -m exp1.launch_full --launch-dir exp1/launches/full-20261020 --transport modelscope` failed. (See above for error)

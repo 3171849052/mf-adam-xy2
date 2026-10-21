@@ -1,0 +1,58 @@
+{
+  "status": "failed",
+  "stage": "smoke_9b",
+  "started_at": "2026-10-20T20:28:54+08:00",
+  "supervisor_pid": 458899,
+  "process_group": 458689,
+  "smoke_output": "exp1/runs/smoke-9b",
+  "full_output": "exp1/runs/full",
+  "full_experiments_started": false,
+  "official_test_evaluated": false,
+  "history": [
+    {
+      "stage": "download",
+      "returncode": 0,
+      "finished_at": "2026-10-20T22:00:36+08:00",
+      "log": "exp1/launches/full-20261020-retry1/download.log"
+    },
+    {
+      "stage": "unit_tests",
+      "returncode": 0,
+      "finished_at": "2026-10-20T22:04:57+08:00",
+      "log": "exp1/launches/full-20261020-retry1/unit_tests.log"
+    },
+    {
+      "stage": "smoke_9b",
+      "returncode": 1,
+      "finished_at": "2026-10-20T22:06:02+08:00",
+      "log": "exp1/launches/full-20261020-retry1/smoke_9b.log"
+    }
+  ],
+  "updated_at": "2026-10-20T22:06:02+08:00",
+  "weight_bytes": 19306310872,
+  "expected_weight_bytes": 19306310872,
+  "model_weights_verified": true,
+  "full_ghost_passed": false,
+  "full_configuration_frozen": false,
+  "stage_started_at": "2026-10-20T22:04:57+08:00",
+  "log": "exp1/launches/full-20261020-retry1/smoke_9b.log",
+  "command": [
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/anaconda3/bin/conda",
+    "run",
+    "--no-capture-output",
+    "-n",
+    "pndp",
+    "python",
+    "-u",
+    "-m",
+    "exp1",
+    "run",
+    "--config",
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/launches/full-20261020-retry1/smoke.config.json",
+    "--output",
+    "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/runs/smoke-9b"
+  ],
+  "child_pid": 680042,
+  "returncode": 1,
+  "finished_at": "2026-10-20T22:06:02+08:00"
+}

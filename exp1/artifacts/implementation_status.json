@@ -1,0 +1,93 @@
+{
+  "environment": "pndp",
+  "date": "2026-10-21",
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "implementation_complete": true,
+  "real_model_validation_complete": false,
+  "full_experiments_started": false,
+  "official_test_evaluated": false,
+  "tests": {
+    "unit_tests": 19,
+    "all_passed": true,
+    "ghost_max_gradient_relative_errors": {
+      "ghost_cpu": 4.3525885204985203e-07,
+      "ghost_bf16_gpu": 0.006183199675447581
+    },
+    "ghost_test_cases": 32,
+    "fixture_smoke": "exp1/artifacts/fixture_smoke_final/result.json",
+    "real_9b_smoke_passed": false
+  },
+  "data": {
+    "gsm8k_train": 6961,
+    "validation": 512,
+    "test": 1319,
+    "math10k_raw": 9919,
+    "math10k_filtered": 9500,
+    "math10k_removed": 419
+  },
+  "training_max_length": 1664,
+  "initial_length_audit": "exp1/artifacts/data/lengths-full-256.json",
+  "final_length_audit": "exp1/artifacts/data/lengths-full-1664.json",
+  "model_structure_audit": "exp1/artifacts/model_structure.json",
+  "fixed_300_step_plans": "exp1/artifacts/plans/full/summary.json",
+  "remaining_issues": [
+    "Real-weight Ghost correctness gate failed: physical batch 2 clipped-gradient relative error 3.2035% > unchanged 3% threshold; cause under investigation.",
+    "Full experiment has not started. True-scale throughput and peak memory remain unverified.",
+    "Lexical decontamination cannot exclude semantic paraphrases or pretraining contamination."
+  ],
+  "downloads": {
+    "running": false,
+    "complete": true,
+    "weight_bytes": 19306310872,
+    "manifest": "exp1/artifacts/model_manifest.json",
+    "completed_at": "2026-10-20T22:00:36+08:00"
+  },
+  "commands": {
+    "smoke": "conda run --no-capture-output -n pndp python -m exp1 run --config exp1/configs/smoke.json --output exp1/runs/smoke-9b",
+    "full": "conda run --no-capture-output -n pndp python -m exp1 run --config exp1/configs/full.json --output exp1/runs/full",
+    "final": "conda run --no-capture-output -n pndp python -m exp1 final --run exp1/runs/full"
+  },
+  "active_launch": "exp1/launches/full-20261020-retry1/status.json",
+  "launch_authorized_by_user": true,
+  "current_phase": "Real 9B BF16 Ghost gate failed; diagnostic controls completed; numerical discrepancy unresolved; no full training started.",
+  "active_monitor": "exp1/launches/full-20261020-retry1/monitor/latest.json",
+  "monitor_events": "exp1/launches/full-20261020-retry1/monitor/events.jsonl",
+  "monitor_interval_seconds": 30,
+  "recovery_tests": {
+    "passed": 3,
+    "log": "exp1/logs/download_recovery_tests.log"
+  },
+  "last_failure": {
+    "stage": "download",
+    "time": "2026-10-20T20:12:42+08:00",
+    "reason": "TimeoutError: The read operation timed out",
+    "weight_bytes_retained": 5486149632
+  },
+  "model_weights_verified": true,
+  "real_9b_ghost_failure": {
+    "physical_batch": 2,
+    "gradient_relative_error": 0.03203529605834018,
+    "threshold": 0.03,
+    "log": "exp1/launches/full-20261020-retry1/smoke_9b.log"
+  },
+  "active_diagnostic": {
+    "pid": 2718464,
+    "command": [
+      "/HOME/sysu_qling/sysu_qling_3/HDD_POOL/anaconda3/envs/pndp/bin/python",
+      "-u",
+      "exp1/ops/diagnose_ghost.py",
+      "--fp32-control",
+      "--physicals",
+      "1",
+      "2",
+      "--output",
+      "exp1/artifacts/ghost_diagnostic_fp32_control.json"
+    ],
+    "log": "exp1/logs/ghost_diagnostic_fp32_control.log",
+    "result": "exp1/artifacts/ghost_diagnostic_fp32_control.json",
+    "purpose": "Diagnostic control only; no optimizer update; production precision remains BF16; official test not accessed.",
+    "status": "complete",
+    "production_gate_passed": false
+  },
+  "diagnostic_summary": "exp1/artifacts/ghost_failure_analysis.json"
+}

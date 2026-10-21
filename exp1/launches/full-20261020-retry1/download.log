@@ -1,0 +1,425 @@
+ModelScope byte transport: model.safetensors-00001-of-00004.safetensors; expected SHA256=862bf7bba8a50145d19d0ae463931fae515284024736592a73a336bc4dfa54eeModelScope byte transport: model.safetensors-00004-of-00004.safetensors; expected SHA256=1a643bbed669266917b5058b5d3f660c03233599249ff7d8fd083decfe662ae0ModelScope byte transport: model.safetensors-00002-of-00004.safetensors; expected SHA256=bace8e115e11ca93c22f0352a60d2fb0c76ac6d7d1c2993c143b7ad2b6c8868c
+
+
+ModelScope byte transport: model.safetensors-00003-of-00004.safetensors; expected SHA256=63a021ac0011cbfc66166e77103327a8b45dee95832e36551f6b4c3337448959
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1367343104-1434451967/5368717376DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1375731712-1442840575/5276436216DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1367343104-1434451967/3325995704
+
+
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1375731712-1442840575/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1442840576/5276436216 bytes, elapsed=136.8s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1442840576-1509949439/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1442840576/5335161576 bytes, elapsed=138.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1442840576-1509949439/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1434451968/3325995704 bytes, elapsed=141.1s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1434451968-1501560831/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1434451968/5368717376 bytes, elapsed=141.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1434451968-1501560831/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1509949440/5335161576 bytes, elapsed=274.0s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1509949440-1577058303/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1501560832/5368717376 bytes, elapsed=274.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1501560832-1568669695/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1509949440/5276436216 bytes, elapsed=275.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1509949440-1577058303/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1501560832/3325995704 bytes, elapsed=275.4s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1501560832-1568669695/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1568669696/3325995704 bytes, elapsed=399.6s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1568669696-1635778559/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1577058304/5335161576 bytes, elapsed=400.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1577058304-1644167167/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1568669696/5368717376 bytes, elapsed=400.7s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1568669696-1635778559/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1577058304/5276436216 bytes, elapsed=400.7s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1577058304-1644167167/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1635778560/3325995704 bytes, elapsed=510.2s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1635778560-1702887423/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1635778560/5368717376 bytes, elapsed=510.4s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1635778560-1702887423/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1644167168/5335161576 bytes, elapsed=510.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1644167168-1711276031/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1644167168/5276436216 bytes, elapsed=510.5s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1644167168-1711276031/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1702887424/3325995704 bytes, elapsed=619.4s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1702887424-1769996287/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1711276032/5335161576 bytes, elapsed=620.8s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1711276032-1778384895/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1702887424/5368717376 bytes, elapsed=621.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1702887424-1769996287/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1711276032/5276436216 bytes, elapsed=621.1s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1711276032-1778384895/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1769996288/3325995704 bytes, elapsed=733.6s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1769996288-1837105151/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1778384896/5335161576 bytes, elapsed=734.8s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1778384896-1845493759/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1778384896/5276436216 bytes, elapsed=734.8s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1778384896-1845493759/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1769996288/5368717376 bytes, elapsed=734.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1769996288-1837105151/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1837105152/3325995704 bytes, elapsed=853.0s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1837105152-1904214015/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1845493760/5335161576 bytes, elapsed=855.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1845493760-1912602623/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1837105152/5368717376 bytes, elapsed=855.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1837105152-1904214015/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1845493760/5276436216 bytes, elapsed=855.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1845493760-1912602623/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1904214016/3325995704 bytes, elapsed=966.6s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1904214016-1971322879/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1904214016/5368717376 bytes, elapsed=967.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1904214016-1971322879/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1912602624/5335161576 bytes, elapsed=967.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1912602624-1979711487/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1912602624/5276436216 bytes, elapsed=967.2s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1912602624-1979711487/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 1971322880/3325995704 bytes, elapsed=1063.3s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 1971322880-2038431743/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 1979711488/5276436216 bytes, elapsed=1064.1s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 1979711488-2046820351/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 1979711488/5335161576 bytes, elapsed=1064.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 1979711488-2046820351/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 1971322880/5368717376 bytes, elapsed=1064.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 1971322880-2038431743/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2046820352/5276436216 bytes, elapsed=1164.7s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2046820352-2113929215/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2038431744/3325995704 bytes, elapsed=1164.8s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2038431744-2105540607/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2046820352/5335161576 bytes, elapsed=1164.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2046820352-2113929215/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2038431744/5368717376 bytes, elapsed=1164.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2038431744-2105540607/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2113929216/5335161576 bytes, elapsed=1265.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2113929216-2181038079/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2105540608/5368717376 bytes, elapsed=1265.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2105540608-2172649471/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2105540608/3325995704 bytes, elapsed=1265.2s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2105540608-2172649471/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2113929216/5276436216 bytes, elapsed=1265.2s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2113929216-2181038079/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2172649472/3325995704 bytes, elapsed=1363.0s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2172649472-2239758335/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2181038080/5276436216 bytes, elapsed=1363.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2181038080-2248146943/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2181038080/5335161576 bytes, elapsed=1363.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2181038080-2248146943/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2172649472/5368717376 bytes, elapsed=1363.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2172649472-2239758335/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2239758336/3325995704 bytes, elapsed=1462.9s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2239758336-2306867199/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2248146944/5335161576 bytes, elapsed=1463.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2248146944-2315255807/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2248146944/5276436216 bytes, elapsed=1463.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2248146944-2315255807/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2239758336/5368717376 bytes, elapsed=1463.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2239758336-2306867199/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2306867200/5368717376 bytes, elapsed=1553.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2306867200-2373976063/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2315255808/5335161576 bytes, elapsed=1555.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2315255808-2382364671/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2315255808/5276436216 bytes, elapsed=1555.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2315255808-2382364671/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2306867200/3325995704 bytes, elapsed=1555.4s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2306867200-2373976063/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2373976064/5368717376 bytes, elapsed=1653.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2373976064-2441084927/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2373976064/3325995704 bytes, elapsed=1653.5s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2373976064-2441084927/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2382364672/5276436216 bytes, elapsed=1653.8s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2382364672-2449473535/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2382364672/5335161576 bytes, elapsed=1653.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2382364672-2449473535/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2441084928/3325995704 bytes, elapsed=1762.3s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2441084928-2508193791/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2441084928/5368717376 bytes, elapsed=1762.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2441084928-2508193791/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2449473536/5276436216 bytes, elapsed=1762.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2449473536-2516582399/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2449473536/5335161576 bytes, elapsed=1762.7s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2449473536-2516582399/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2508193792/5368717376 bytes, elapsed=1859.7s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2508193792-2575302655/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2516582400/5276436216 bytes, elapsed=1860.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2516582400-2583691263/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2516582400/5335161576 bytes, elapsed=1860.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2516582400-2583691263/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2508193792/3325995704 bytes, elapsed=1860.1s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2508193792-2575302655/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2583691264/5335161576 bytes, elapsed=1952.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2583691264-2650800127/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2575302656/5368717376 bytes, elapsed=1953.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2575302656-2642411519/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2575302656/3325995704 bytes, elapsed=1953.2s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2575302656-2642411519/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2583691264/5276436216 bytes, elapsed=1953.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2583691264-2650800127/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2650800128/5335161576 bytes, elapsed=2053.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2650800128-2717908991/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2650800128/5276436216 bytes, elapsed=2054.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2650800128-2717908991/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2642411520/5368717376 bytes, elapsed=2054.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2642411520-2709520383/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2642411520/3325995704 bytes, elapsed=2054.1s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2642411520-2709520383/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2709520384/5368717376 bytes, elapsed=2147.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2709520384-2776629247/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2717908992/5335161576 bytes, elapsed=2147.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2717908992-2785017855/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2717908992/5276436216 bytes, elapsed=2147.5s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2717908992-2785017855/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2709520384/3325995704 bytes, elapsed=2147.6s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2709520384-2776629247/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2785017856/5335161576 bytes, elapsed=2245.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2785017856-2852126719/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2785017856/5276436216 bytes, elapsed=2245.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2785017856-2852126719/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2776629248/5368717376 bytes, elapsed=2245.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2776629248-2843738111/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2776629248/3325995704 bytes, elapsed=2245.5s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2776629248-2843738111/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2843738112/3325995704 bytes, elapsed=2339.9s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2843738112-2910846975/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2852126720/5335161576 bytes, elapsed=2339.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2852126720-2919235583/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2852126720/5276436216 bytes, elapsed=2339.9s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2852126720-2919235583/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2843738112/5368717376 bytes, elapsed=2339.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2843738112-2910846975/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2910846976/5368717376 bytes, elapsed=2432.4s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2910846976-2977955839/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2910846976/3325995704 bytes, elapsed=2434.0s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2910846976-2977955839/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2919235584/5335161576 bytes, elapsed=2434.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2919235584-2986344447/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2919235584/5276436216 bytes, elapsed=2434.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2919235584-2986344447/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 2977955840/5368717376 bytes, elapsed=2528.4s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 2977955840-3045064703/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 2977955840/3325995704 bytes, elapsed=2528.5s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 2977955840-3045064703/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 2986344448/5335161576 bytes, elapsed=2528.8s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 2986344448-3053453311/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 2986344448/5276436216 bytes, elapsed=2528.9s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 2986344448-3053453311/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3053453312/5335161576 bytes, elapsed=2638.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3053453312-3120562175/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3053453312/5276436216 bytes, elapsed=2638.2s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3053453312-3120562175/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3045064704/3325995704 bytes, elapsed=2638.2s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 3045064704-3112173567/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3045064704/5368717376 bytes, elapsed=2638.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3045064704-3112173567/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3120562176/5335161576 bytes, elapsed=2739.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3120562176-3187671039/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3112173568/3325995704 bytes, elapsed=2739.5s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 3112173568-3179282431/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3112173568/5368717376 bytes, elapsed=2739.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3112173568-3179282431/5368717376DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3120562176/5276436216 bytes, elapsed=2739.5s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3120562176-3187671039/5276436216
+
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3179282432/3325995704 bytes, elapsed=2935.8s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 3179282432-3246391295/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3187671040/5335161576 bytes, elapsed=2936.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3187671040-3254779903/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3187671040/5276436216 bytes, elapsed=2937.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3187671040-3254779903/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3179282432/5368717376 bytes, elapsed=2937.0s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3179282432-3246391295/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3246391296/5368717376 bytes, elapsed=3039.3s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3246391296-3313500159/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3246391296/3325995704 bytes, elapsed=3039.9s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 3246391296-3313500159/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3254779904/5276436216 bytes, elapsed=3040.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3254779904-3321888767/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3254779904/5335161576 bytes, elapsed=3040.0s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3254779904-3321888767/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3321888768/5335161576 bytes, elapsed=3132.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3321888768-3388997631/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3313500160/3325995704 bytes, elapsed=3133.0s
+DOWNLOAD_RANGE model.safetensors-00004-of-00004.safetensors.partial: 3313500160-3325995703/3325995704
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3313500160/5368717376 bytes, elapsed=3133.0s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3313500160-3380609023/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3321888768/5276436216 bytes, elapsed=3133.1s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3321888768-3388997631/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00004-of-00004.safetensors.partial: 3325995704/3325995704 bytes, elapsed=3153.4s
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3388997632/5276436216 bytes, elapsed=3211.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3388997632-3456106495/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3388997632/5335161576 bytes, elapsed=3211.4s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3388997632-3456106495/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3380609024/5368717376 bytes, elapsed=3211.7s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3380609024-3447717887/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3447717888/5368717376 bytes, elapsed=3286.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3447717888-3514826751/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3456106496/5276436216 bytes, elapsed=3287.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3456106496-3523215359/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3456106496/5335161576 bytes, elapsed=3287.2s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3456106496-3523215359/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3523215360/5335161576 bytes, elapsed=3350.4s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3523215360-3590324223/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3523215360/5276436216 bytes, elapsed=3357.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3523215360-3590324223/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3514826752/5368717376 bytes, elapsed=3357.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3514826752-3581935615/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3590324224/5335161576 bytes, elapsed=3420.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3590324224-3657433087/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3581935616/5368717376 bytes, elapsed=3424.7s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3581935616-3649044479/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3590324224/5276436216 bytes, elapsed=3425.4s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3590324224-3657433087/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3657433088/5335161576 bytes, elapsed=3493.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3657433088-3724541951/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3657433088/5276436216 bytes, elapsed=3494.1s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3657433088-3724541951/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3649044480/5368717376 bytes, elapsed=3494.3s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3649044480-3716153343/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3724541952/5335161576 bytes, elapsed=3562.8s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3724541952-3791650815/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3716153344/5368717376 bytes, elapsed=3562.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3716153344-3783262207/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3724541952/5276436216 bytes, elapsed=3563.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3724541952-3791650815/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3783262208/5368717376 bytes, elapsed=3632.0s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3783262208-3850371071/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3791650816/5335161576 bytes, elapsed=3632.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3791650816-3858759679/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3791650816/5276436216 bytes, elapsed=3633.7s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3791650816-3858759679/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3858759680/5276436216 bytes, elapsed=3705.5s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3858759680-3925868543/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3858759680/5335161576 bytes, elapsed=3705.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3858759680-3925868543/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3850371072/5368717376 bytes, elapsed=3705.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3850371072-3917479935/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3925868544/5276436216 bytes, elapsed=3768.4s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3925868544-3992977407/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3917479936/5368717376 bytes, elapsed=3774.0s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3917479936-3984588799/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3925868544/5335161576 bytes, elapsed=3774.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3925868544-3992977407/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 3992977408/5276436216 bytes, elapsed=3843.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 3992977408-4060086271/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 3984588800/5368717376 bytes, elapsed=3843.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 3984588800-4051697663/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 3992977408/5335161576 bytes, elapsed=3844.4s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 3992977408-4060086271/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4060086272/5276436216 bytes, elapsed=3913.5s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4060086272-4127195135/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4060086272/5335161576 bytes, elapsed=3913.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4060086272-4127195135/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4051697664/5368717376 bytes, elapsed=3914.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4051697664-4118806527/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4127195136/5335161576 bytes, elapsed=3985.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4127195136-4194303999/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4127195136/5276436216 bytes, elapsed=3985.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4127195136-4194303999/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4118806528/5368717376 bytes, elapsed=3985.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4118806528-4185915391/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4185915392/5368717376 bytes, elapsed=4055.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4185915392-4253024255/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4194304000/5335161576 bytes, elapsed=4056.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4194304000-4261412863/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4194304000/5276436216 bytes, elapsed=4057.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4194304000-4261412863/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4261412864/5276436216 bytes, elapsed=4132.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4261412864-4328521727/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4253024256/5368717376 bytes, elapsed=4132.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4253024256-4320133119/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4261412864/5335161576 bytes, elapsed=4132.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4261412864-4328521727/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4328521728/5335161576 bytes, elapsed=4300.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4328521728-4395630591/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4328521728/5276436216 bytes, elapsed=4302.2s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4328521728-4395630591/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4320133120/5368717376 bytes, elapsed=4307.1s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4320133120-4387241983/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4395630592/5335161576 bytes, elapsed=4389.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4395630592-4462739455/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4387241984/5368717376 bytes, elapsed=4389.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4387241984-4454350847/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4395630592/5276436216 bytes, elapsed=4389.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4395630592-4462739455/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4462739456/5335161576 bytes, elapsed=4482.4s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4462739456-4529848319/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4454350848/5368717376 bytes, elapsed=4482.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4454350848-4521459711/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4462739456/5276436216 bytes, elapsed=4482.9s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4462739456-4529848319/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4521459712/5368717376 bytes, elapsed=4552.9s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4521459712-4588568575/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4529848320/5335161576 bytes, elapsed=4552.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4529848320-4596957183/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4529848320/5276436216 bytes, elapsed=4554.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4529848320-4596957183/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4596957184/5335161576 bytes, elapsed=4635.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4596957184-4664066047/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4596957184/5276436216 bytes, elapsed=4635.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4596957184-4664066047/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4588568576/5368717376 bytes, elapsed=4635.3s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4588568576-4655677439/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4664066048/5335161576 bytes, elapsed=4704.0s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4664066048-4731174911/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4655677440/5368717376 bytes, elapsed=4705.5s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4655677440-4722786303/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4664066048/5276436216 bytes, elapsed=4705.7s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4664066048-4731174911/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4731174912/5276436216 bytes, elapsed=4776.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4731174912-4798283775/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4722786304/5368717376 bytes, elapsed=4776.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4722786304-4789895167/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4731174912/5335161576 bytes, elapsed=4776.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4731174912-4798283775/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4798283776/5276436216 bytes, elapsed=4850.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4798283776-4865392639/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4798283776/5335161576 bytes, elapsed=4850.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4798283776-4865392639/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4789895168/5368717376 bytes, elapsed=4850.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4789895168-4857004031/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4865392640/5335161576 bytes, elapsed=4924.5s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4865392640-4932501503/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4865392640/5276436216 bytes, elapsed=4924.8s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4865392640-4932501503/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4857004032/5368717376 bytes, elapsed=4925.0s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4857004032-4924112895/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4932501504/5276436216 bytes, elapsed=4994.2s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4932501504-4999610367/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4924112896/5368717376 bytes, elapsed=4994.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4924112896-4991221759/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4932501504/5335161576 bytes, elapsed=4994.6s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4932501504-4999610367/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 4991221760/5368717376 bytes, elapsed=5086.8s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 4991221760-5058330623/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 4999610368/5276436216 bytes, elapsed=5087.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 4999610368-5066719231/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 4999610368/5335161576 bytes, elapsed=5087.1s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 4999610368-5066719231/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5058330624/5368717376 bytes, elapsed=5161.2s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 5058330624-5125439487/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 5066719232/5276436216 bytes, elapsed=5161.6s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 5066719232-5133828095/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5066719232/5335161576 bytes, elapsed=5162.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 5066719232-5133828095/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5133828096/5335161576 bytes, elapsed=5232.3s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 5133828096-5200936959/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 5133828096/5276436216 bytes, elapsed=5232.3s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 5133828096-5200936959/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5125439488/5368717376 bytes, elapsed=5233.3s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 5125439488-5192548351/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5192548352/5368717376 bytes, elapsed=5304.3s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 5192548352-5259657215/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 5200936960/5276436216 bytes, elapsed=5304.7s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 5200936960-5268045823/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5200936960/5335161576 bytes, elapsed=5304.8s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 5200936960-5268045823/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5268045824/5335161576 bytes, elapsed=5379.9s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 5268045824-5335154687/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 5268045824/5276436216 bytes, elapsed=5380.0s
+DOWNLOAD_RANGE model.safetensors-00001-of-00004.safetensors.partial: 5268045824-5276436215/5276436216
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5259657216/5368717376 bytes, elapsed=5381.4s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 5259657216-5326766079/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00001-of-00004.safetensors.partial: 5276436216/5276436216 bytes, elapsed=5389.5s
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5335154688/5335161576 bytes, elapsed=5429.7s
+DOWNLOAD_RANGE model.safetensors-00002-of-00004.safetensors.partial: 5335154688-5335161575/5335161576
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5326766080/5368717376 bytes, elapsed=5430.6s
+DOWNLOAD_RANGE model.safetensors-00003-of-00004.safetensors.partial: 5326766080-5368717375/5368717376
+DOWNLOAD_PROGRESS model.safetensors-00002-of-00004.safetensors.partial: 5335161576/5335161576 bytes, elapsed=5431.0s
+DOWNLOAD_PROGRESS model.safetensors-00003-of-00004.safetensors.partial: 5368717376/5368717376 bytes, elapsed=5445.9s
+{
+  "model_manifest": "/XYFS01/HDD_POOL/sysu_qling/sysu_qling_3/lt/mf-adam/exp1/artifacts/model_manifest.json"
+}
